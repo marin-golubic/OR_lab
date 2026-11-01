@@ -1,0 +1,32 @@
+Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+
+Genshin Impact Characters and Talents Dataset
+Dataset compilation and database structure: Marin Golubic (2026)
+
+To the extent that the dataset compilation, selection, arrangement, and
+original contributions are protected by copyright and are owned by the
+dataset author, they are licensed under Creative Commons
+Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0).
+
+License terms:
+https://creativecommons.org/licenses/by-sa/3.0/legalcode.en
+
+SOURCE AND ATTRIBUTION
+
+Source: Genshin Impact Wiki contributors
+https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki
+
+Source licensing information:
+https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki:Copyrights
+
+The dataset author selected and structured character and talent information
+in a PostgreSQL relational database and exported it in CSV and JSON formats.
+These changes are not endorsed by Genshin Impact Wiki contributors.
+
+THIRD-PARTY RIGHTS
+
+This license applies only to material that the dataset author has the right
+to license. It does not grant rights to third-party trademarks, artwork,
+character designs, or other content outside the scope of the license.
+Genshin Impact and related intellectual property belong to their
+respective rights holders.

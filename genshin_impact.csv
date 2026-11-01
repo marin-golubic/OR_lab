@@ -1,0 +1,46 @@
+character_id,character_name,rarity,character_element,weapon_type,region,model_type,birthday,special_dish,ascension_stat,release_version,release_date,talent_id,talent_name,talent_type
+1,Hu Tao,5,Pyro,Polearm,Liyue,Medium Female,15.7.,Ghostly March,Crit DMG,1.3,3/2/2021,1,Secret Spear of Wangsheng,Normal Attack
+1,Hu Tao,5,Pyro,Polearm,Liyue,Medium Female,15.7.,Ghostly March,Crit DMG,1.3,3/2/2021,2,Guide to Afterlife,Elemental Skill
+1,Hu Tao,5,Pyro,Polearm,Liyue,Medium Female,15.7.,Ghostly March,Crit DMG,1.3,3/2/2021,3,Spirit Soother,Elemental Burst
+2,Zibai,5,Geo,Sword,Liyue,Tall Female,15.5.,Flavor of Spring,Crit DMG,Luna IV,2/3/2026,31,Tri-Sphere Eminence,Elemental Burst
+2,Zibai,5,Geo,Sword,Liyue,Tall Female,15.5.,Flavor of Spring,Crit DMG,Luna IV,2/3/2026,32,Heaven and Earth Made Manifest,Elemental Skill
+2,Zibai,5,Geo,Sword,Liyue,Tall Female,15.5.,Flavor of Spring,Crit DMG,Luna IV,2/3/2026,33,Golden Blade's Petaled Touch,Normal Attack
+3,Columbina,5,Hydro,Catalyst,Nod-Krai,Medium Female,14.1.,Moonlit Mirage,Crit Rate,Luna IV,1/14/2026,4,Moonlit Melancholy,Elemental Burst
+3,Columbina,5,Hydro,Catalyst,Nod-Krai,Medium Female,14.1.,Moonlit Mirage,Crit Rate,Luna IV,1/14/2026,5,Eternal Tides,Elemental Skill
+3,Columbina,5,Hydro,Catalyst,Nod-Krai,Medium Female,14.1.,Moonlit Mirage,Crit Rate,Luna IV,1/14/2026,6,Moondew Cascade,Normal Attack
+4,Furina,5,Hydro,Sword,Fontaine,Medium Female,13.10.,Pour la Justice,Crit Rate,4.2,11/8/2023,7,Let the People Rejoice,Elemental Burst
+4,Furina,5,Hydro,Sword,Fontaine,Medium Female,13.10.,Pour la Justice,Crit Rate,4.2,11/8/2023,8,Salon Solitaire,Elemental Skill
+4,Furina,5,Hydro,Sword,Fontaine,Medium Female,13.10.,Pour la Justice,Crit Rate,4.2,11/8/2023,9,Soloist's Solicitation,Normal Attack
+5,Sandrone,5,Cryo,Claymore,Snezhnaya,Medium Female,13.1.,Tea Party Polyphony,Crit Rate,Luna VIII,7/1/2026,28,Formule Phenomenale: Q.E.D.,Elemental Burst
+5,Sandrone,5,Cryo,Claymore,Snezhnaya,Medium Female,13.1.,Tea Party Polyphony,Crit Rate,Luna VIII,7/1/2026,29,Formule Phenomenale: Differential Analysis,Elemental Skill
+5,Sandrone,5,Cryo,Claymore,Snezhnaya,Medium Female,13.1.,Tea Party Polyphony,Crit Rate,Luna VIII,7/1/2026,30,Formule Phenomenale: Self-Evident Proposition,Normal Attack
+6,Yoimiya,5,Pyro,Bow,Inazuma,Medium Female,21.6.,Summer Festival Fish,Crit Rate,2,8/10/2021,10,Ryuukin Saxifrage,Elemental Burst
+6,Yoimiya,5,Pyro,Bow,Inazuma,Medium Female,21.6.,Summer Festival Fish,Crit Rate,2,8/10/2021,11,Niwabi Fire-Dance,Elemental Skill
+6,Yoimiya,5,Pyro,Bow,Inazuma,Medium Female,21.6.,Summer Festival Fish,Crit Rate,2,8/10/2021,12,Firework Flare-Up,Normal Attack
+7,Sangonomiya Kokomi,5,Hydro,Catalyst,Inazuma,Medium Female,22.2.,A Stunning Stratagem,Hydro DMG Bonus,2.1,9/21/2021,13,Nereid's Ascension,Elemental Burst
+7,Sangonomiya Kokomi,5,Hydro,Catalyst,Inazuma,Medium Female,22.2.,A Stunning Stratagem,Hydro DMG Bonus,2.1,9/21/2021,14,Kurage's Oath,Elemental Skill
+7,Sangonomiya Kokomi,5,Hydro,Catalyst,Inazuma,Medium Female,22.2.,A Stunning Stratagem,Hydro DMG Bonus,2.1,9/21/2021,15,The Shape of Water,Normal Attack
+8,Linnea,5,Geo,Bow,Nod-Krai,Medium Female,23.5.,Iridescence Under the Tree's Shade,Crit Rate,Luna VI,4/8/2026,37,Memo: Survival Guide in Extreme Conditions,Elemental Burst
+8,Linnea,5,Geo,Bow,Nod-Krai,Medium Female,23.5.,Iridescence Under the Tree's Shade,Crit Rate,Luna VI,4/8/2026,38,Countermeasure: Lumi's Battle Cry!,Elemental Skill
+8,Linnea,5,Geo,Bow,Nod-Krai,Medium Female,23.5.,Iridescence Under the Tree's Shade,Crit Rate,Luna VI,4/8/2026,39,Capture Protocol,Normal Attack
+9,Vesna,5,Anemo,Sword,Snezhnaya,,4.2.,Hoarfrost Soup,Crit DMG,7.1,9/23/2026,34,For the Tsaritsa!,Elemental Burst
+9,Vesna,5,Anemo,Sword,Snezhnaya,,4.2.,Hoarfrost Soup,Crit DMG,7.1,9/23/2026,35,The Art of Victory,Elemental Skill
+9,Vesna,5,Anemo,Sword,Snezhnaya,,4.2.,Hoarfrost Soup,Crit DMG,7.1,9/23/2026,36,Vila Blade Dance,Normal Attack
+10,Klee,5,Pyro,Catalyst,Mondstadt,Short Female,27.7.,Fish-Flavored Toast,Pyro DMG Bonus,1,10/20/2020,16,Sparks 'n' Splash,Elemental Burst
+10,Klee,5,Pyro,Catalyst,Mondstadt,Short Female,27.7.,Fish-Flavored Toast,Pyro DMG Bonus,1,10/20/2020,17,Jumpy Dumpty,Elemental Skill
+10,Klee,5,Pyro,Catalyst,Mondstadt,Short Female,27.7.,Fish-Flavored Toast,Pyro DMG Bonus,1,10/20/2020,18,Kaboom!,Normal Attack
+11,Nicole,5,Pyro,Catalyst,,Tall Female,29.9.,Gilded Chest,ATK%,Luna VII,5/20/2026,40,Revelation: Ladder of Divine Ascent,Elemental Burst
+11,Nicole,5,Pyro,Catalyst,,Tall Female,29.9.,Gilded Chest,ATK%,Luna VII,5/20/2026,41,Revelation: Uncreated Light,Elemental Skill
+11,Nicole,5,Pyro,Catalyst,,Tall Female,29.9.,Gilded Chest,ATK%,Luna VII,5/20/2026,42,Allegoria,Normal Attack
+12,Durin,5,Pyro,Sword,Mondstadt,Medium Male,14.3.,Apple Stew (Trial Version),Crit DMG,Luna III,12/3/2025,43,Principle of Purity: As the Light Shifts,Elemental Burst
+12,Durin,5,Pyro,Sword,Mondstadt,Medium Male,14.3.,Apple Stew (Trial Version),Crit DMG,Luna III,12/3/2025,44,Binary Form: Convergence and Division,Elemental Skill
+12,Durin,5,Pyro,Sword,Mondstadt,Medium Male,14.3.,Apple Stew (Trial Version),Crit DMG,Luna III,12/3/2025,45,Radiant Wingslash,Normal Attack
+13,Qiqi,5,Cryo,Sword,Liyue,Short Female,3.3.,No Tomorrow,Healing Bonus,1,9/28/2020,19,Adeptus Art: Preserver of Fortune,Elemental Burst
+13,Qiqi,5,Cryo,Sword,Liyue,Short Female,3.3.,No Tomorrow,Healing Bonus,1,9/28/2020,20,Adeptus Art: Herald of Frost,Elemental Skill
+13,Qiqi,5,Cryo,Sword,Liyue,Short Female,3.3.,No Tomorrow,Healing Bonus,1,9/28/2020,21,Ancient Sword Art,Normal Attack
+14,Chiori,5,Geo,Sword,Inazuma,Medium Female,17.8.,Fashion Show,Crit Rate,4.5,3/13/2024,22,Hiyoku: Twin Blades,Elemental Burst
+14,Chiori,5,Geo,Sword,Inazuma,Medium Female,17.8.,Fashion Show,Crit Rate,4.5,3/13/2024,23,Fluttering Hasode,Elemental Skill
+14,Chiori,5,Geo,Sword,Inazuma,Medium Female,17.8.,Fashion Show,Crit Rate,4.5,3/13/2024,24,Weaving Blade,Normal Attack
+15,Neuvillette,5,Hydro,Catalyst,Fontaine,Tall Male,18.12.,Consomme Purete,Crit DMG,4.1,9/27/2023,25,"O Tides, I Have Returned",Elemental Burst
+15,Neuvillette,5,Hydro,Catalyst,Fontaine,Tall Male,18.12.,Consomme Purete,Crit DMG,4.1,9/27/2023,26,"O Tears, I Shall Repay",Elemental Skill
+15,Neuvillette,5,Hydro,Catalyst,Fontaine,Tall Male,18.12.,Consomme Purete,Crit DMG,4.1,9/27/2023,27,As Water Seeks Equilibrium,Normal Attack

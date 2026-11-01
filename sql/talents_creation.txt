@@ -1,0 +1,35 @@
+CREATE TABLE talents (
+    talent_id SERIAL PRIMARY KEY,
+    character_id INT NOT NULL,
+    talent_name VARCHAR(100) NOT NULL,
+    talent_type VARCHAR(30),
+
+    FOREIGN KEY (character_id)
+        REFERENCES characters(character_id)
+);
+
+//Unos:
+INSERT INTO talents (
+    character_id,
+    talent_name,
+    talent_type
+)
+VALUES
+(
+    (SELECT character_id FROM characters
+     WHERE character_name = 'Hu Tao'),
+    'Secret Spear of Wangsheng',
+    'Normal Attack'
+),
+(
+    (SELECT character_id FROM characters
+     WHERE character_name = 'Hu Tao'),
+    'Guide to Afterlife',
+    'Elemental Skill'
+),
+(
+    (SELECT character_id FROM characters
+     WHERE character_name = 'Hu Tao'),
+    'Spirit Soother',
+    'Elemental Burst'
+);

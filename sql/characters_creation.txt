@@ -1,0 +1,22 @@
+create TABLE characters(
+	character_id SERIAL PRIMARY KEY,
+	character_name VARCHAR (100) NOT NULL,
+	rarity INT,
+	character_element VARCHAR (20),
+	weapon_type VARCHAR(50),
+	region VARCHAR(50),
+	model_type VARCHAR(50),
+	birthday VARCHAR(50),
+	special_dish VARCHAR(50),
+	ascension_stat VARCHAR(50),
+	release_version VARCHAR(10),
+	release_date DATE
+)
+
+insert into characters (
+	character_name, rarity, character_element, weapon_type, region, model_type, birthday, special_dish, ascension_stat,
+	release_version, release_date
+)
+values(
+	
+)

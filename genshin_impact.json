@@ -1,0 +1,467 @@
+[
+    {
+        "character_name": "Hu Tao",
+        "character_element": "Pyro",
+        "region": "Liyue",
+        "rarity": 5,
+        "weapon_type": "Polearm",
+        "birthday": "15.7.",
+        "model_type": "Medium Female",
+        "talents": [
+            {
+                "talent_name": "Secret Spear of Wangsheng",
+                "talent_type": "Normal Attack",
+                "talent_id": 1
+            },
+            {
+                "talent_name": "Guide to Afterlife",
+                "talent_type": "Elemental Skill",
+                "talent_id": 2
+            },
+            {
+                "talent_name": "Spirit Soother",
+                "talent_type": "Elemental Burst",
+                "talent_id": 3
+            }
+        ],
+        "special_dish": "Ghostly March",
+        "ascension_stat": "Crit DMG",
+        "release_version": "1.3",
+        "release_date": "2021-03-02",
+        "character_id": 1
+    },
+    {
+        "character_name": "Zibai",
+        "character_element": "Geo",
+        "region": "Liyue",
+        "rarity": 5,
+        "weapon_type": "Sword",
+        "birthday": "15.5.",
+        "model_type": "Tall Female",
+        "talents": [
+            {
+                "talent_name": "Golden Blade's Petaled Touch",
+                "talent_type": "Normal Attack",
+                "talent_id": 33
+            },
+            {
+                "talent_name": "Heaven and Earth Made Manifest",
+                "talent_type": "Elemental Skill",
+                "talent_id": 32
+            },
+            {
+                "talent_name": "Tri-Sphere Eminence",
+                "talent_type": "Elemental Burst",
+                "talent_id": 31
+            }
+        ],
+        "special_dish": "Flavor of Spring",
+        "ascension_stat": "Crit DMG",
+        "release_version": "Luna IV",
+        "release_date": "2026-02-03",
+        "character_id": 2
+    },
+    {
+        "character_name": "Columbina",
+        "character_element": "Hydro",
+        "region": "Nod-Krai",
+        "rarity": 5,
+        "weapon_type": "Catalyst",
+        "birthday": "14.1.",
+        "model_type": "Medium Female",
+        "talents": [
+            {
+                "talent_name": "Moondew Cascade",
+                "talent_type": "Normal Attack",
+                "talent_id": 6
+            },
+            {
+                "talent_name": "Eternal Tides",
+                "talent_type": "Elemental Skill",
+                "talent_id": 5
+            },
+            {
+                "talent_name": "Moonlit Melancholy",
+                "talent_type": "Elemental Burst",
+                "talent_id": 4
+            }
+        ],
+        "special_dish": "Moonlit Mirage",
+        "ascension_stat": "Crit Rate",
+        "release_version": "Luna IV",
+        "release_date": "2026-01-14",
+        "character_id": 3
+    },
+    {
+        "character_name": "Furina",
+        "character_element": "Hydro",
+        "region": "Fontaine",
+        "rarity": 5,
+        "weapon_type": "Sword",
+        "birthday": "13.10.",
+        "model_type": "Medium Female",
+        "talents": [
+            {
+                "talent_name": "Soloist's Solicitation",
+                "talent_type": "Normal Attack",
+                "talent_id": 9
+            },
+            {
+                "talent_name": "Salon Solitaire",
+                "talent_type": "Elemental Skill",
+                "talent_id": 8
+            },
+            {
+                "talent_name": "Let the People Rejoice",
+                "talent_type": "Elemental Burst",
+                "talent_id": 7
+            }
+        ],
+        "special_dish": "Pour la Justice",
+        "ascension_stat": "Crit Rate",
+        "release_version": "4.2",
+        "release_date": "2023-11-08",
+        "character_id": 4
+    },
+    {
+        "character_name": "Sandrone",
+        "character_element": "Cryo",
+        "region": "Snezhnaya",
+        "rarity": 5,
+        "weapon_type": "Claymore",
+        "birthday": "13.1.",
+        "model_type": "Medium Female",
+        "talents": [
+            {
+                "talent_name": "Formule Phenomenale: Self-Evident Proposition",
+                "talent_type": "Normal Attack",
+                "talent_id": 30
+            },
+            {
+                "talent_name": "Formule Phenomenale: Differential Analysis",
+                "talent_type": "Elemental Skill",
+                "talent_id": 29
+            },
+            {
+                "talent_name": "Formule Phenomenale: Q.E.D.",
+                "talent_type": "Elemental Burst",
+                "talent_id": 28
+            }
+        ],
+        "special_dish": "Tea Party Polyphony",
+        "ascension_stat": "Crit Rate",
+        "release_version": "Luna VIII",
+        "release_date": "2026-07-01",
+        "character_id": 5
+    },
+    {
+        "character_name": "Yoimiya",
+        "character_element": "Pyro",
+        "region": "Inazuma",
+        "rarity": 5,
+        "weapon_type": "Bow",
+        "birthday": "21.6.",
+        "model_type": "Medium Female",
+        "talents": [
+            {
+                "talent_name": "Firework Flare-Up",
+                "talent_type": "Normal Attack",
+                "talent_id": 12
+            },
+            {
+                "talent_name": "Niwabi Fire-Dance",
+                "talent_type": "Elemental Skill",
+                "talent_id": 11
+            },
+            {
+                "talent_name": "Ryuukin Saxifrage",
+                "talent_type": "Elemental Burst",
+                "talent_id": 10
+            }
+        ],
+        "special_dish": "Summer Festival Fish",
+        "ascension_stat": "Crit Rate",
+        "release_version": "2.0",
+        "release_date": "2021-08-10",
+        "character_id": 6
+    },
+    {
+        "character_name": "Sangonomiya Kokomi",
+        "character_element": "Hydro",
+        "region": "Inazuma",
+        "rarity": 5,
+        "weapon_type": "Catalyst",
+        "birthday": "22.2.",
+        "model_type": "Medium Female",
+        "talents": [
+            {
+                "talent_name": "The Shape of Water",
+                "talent_type": "Normal Attack",
+                "talent_id": 15
+            },
+            {
+                "talent_name": "Kurage's Oath",
+                "talent_type": "Elemental Skill",
+                "talent_id": 14
+            },
+            {
+                "talent_name": "Nereid's Ascension",
+                "talent_type": "Elemental Burst",
+                "talent_id": 13
+            }
+        ],
+        "special_dish": "A Stunning Stratagem",
+        "ascension_stat": "Hydro DMG Bonus",
+        "release_version": "2.1",
+        "release_date": "2021-09-21",
+        "character_id": 7
+    },
+    {
+        "character_name": "Linnea",
+        "character_element": "Geo",
+        "region": "Nod-Krai",
+        "rarity": 5,
+        "weapon_type": "Bow",
+        "birthday": "23.5.",
+        "model_type": "Medium Female",
+        "talents": [
+            {
+                "talent_name": "Capture Protocol",
+                "talent_type": "Normal Attack",
+                "talent_id": 39
+            },
+            {
+                "talent_name": "Countermeasure: Lumi's Battle Cry!",
+                "talent_type": "Elemental Skill",
+                "talent_id": 38
+            },
+            {
+                "talent_name": "Memo: Survival Guide in Extreme Conditions",
+                "talent_type": "Elemental Burst",
+                "talent_id": 37
+            }
+        ],
+        "special_dish": "Iridescence Under the Tree's Shade",
+        "ascension_stat": "Crit Rate",
+        "release_version": "Luna VI",
+        "release_date": "2026-04-08",
+        "character_id": 8
+    },
+    {
+        "character_name": "Vesna",
+        "character_element": "Anemo",
+        "region": "Snezhnaya",
+        "rarity": 5,
+        "weapon_type": "Sword",
+        "birthday": "4.2.",
+        "model_type": null,
+        "talents": [
+            {
+                "talent_name": "Vila Blade Dance",
+                "talent_type": "Normal Attack",
+                "talent_id": 36
+            },
+            {
+                "talent_name": "The Art of Victory",
+                "talent_type": "Elemental Skill",
+                "talent_id": 35
+            },
+            {
+                "talent_name": "For the Tsaritsa!",
+                "talent_type": "Elemental Burst",
+                "talent_id": 34
+            }
+        ],
+        "special_dish": "Hoarfrost Soup",
+        "ascension_stat": "Crit DMG",
+        "release_version": "7.1",
+        "release_date": "2026-09-23",
+        "character_id": 9
+    },
+    {
+        "character_name": "Klee",
+        "character_element": "Pyro",
+        "region": "Mondstadt",
+        "rarity": 5,
+        "weapon_type": "Catalyst",
+        "birthday": "27.7.",
+        "model_type": "Short Female",
+        "talents": [
+            {
+                "talent_name": "Kaboom!",
+                "talent_type": "Normal Attack",
+                "talent_id": 18
+            },
+            {
+                "talent_name": "Jumpy Dumpty",
+                "talent_type": "Elemental Skill",
+                "talent_id": 17
+            },
+            {
+                "talent_name": "Sparks 'n' Splash",
+                "talent_type": "Elemental Burst",
+                "talent_id": 16
+            }
+        ],
+        "special_dish": "Fish-Flavored Toast",
+        "ascension_stat": "Pyro DMG Bonus",
+        "release_version": "1.0",
+        "release_date": "2020-10-20",
+        "character_id": 10
+    },
+    {
+        "character_name": "Nicole",
+        "character_element": "Pyro",
+        "region": null,
+        "rarity": 5,
+        "weapon_type": "Catalyst",
+        "birthday": "29.9.",
+        "model_type": "Tall Female",
+        "talents": [
+            {
+                "talent_name": "Allegoria",
+                "talent_type": "Normal Attack",
+                "talent_id": 42
+            },
+            {
+                "talent_name": "Revelation: Uncreated Light",
+                "talent_type": "Elemental Skill",
+                "talent_id": 41
+            },
+            {
+                "talent_name": "Revelation: Ladder of Divine Ascent",
+                "talent_type": "Elemental Burst",
+                "talent_id": 40
+            }
+        ],
+        "special_dish": "Gilded Chest",
+        "ascension_stat": "ATK%",
+        "release_version": "Luna VII",
+        "release_date": "2026-05-20",
+        "character_id": 11
+    },
+    {
+        "character_name": "Durin",
+        "character_element": "Pyro",
+        "region": "Mondstadt",
+        "rarity": 5,
+        "weapon_type": "Sword",
+        "birthday": "14.3.",
+        "model_type": "Medium Male",
+        "talents": [
+            {
+                "talent_name": "Radiant Wingslash",
+                "talent_type": "Normal Attack",
+                "talent_id": 45
+            },
+            {
+                "talent_name": "Binary Form: Convergence and Division",
+                "talent_type": "Elemental Skill",
+                "talent_id": 44
+            },
+            {
+                "talent_name": "Principle of Purity: As the Light Shifts",
+                "talent_type": "Elemental Burst",
+                "talent_id": 43
+            }
+        ],
+        "special_dish": "Apple Stew (Trial Version)",
+        "ascension_stat": "Crit DMG",
+        "release_version": "Luna III",
+        "release_date": "2025-12-03",
+        "character_id": 12
+    },
+    {
+        "character_name": "Qiqi",
+        "character_element": "Cryo",
+        "region": "Liyue",
+        "rarity": 5,
+        "weapon_type": "Sword",
+        "birthday": "3.3.",
+        "model_type": "Short Female",
+        "talents": [
+            {
+                "talent_name": "Ancient Sword Art",
+                "talent_type": "Normal Attack",
+                "talent_id": 21
+            },
+            {
+                "talent_name": "Adeptus Art: Herald of Frost",
+                "talent_type": "Elemental Skill",
+                "talent_id": 20
+            },
+            {
+                "talent_name": "Adeptus Art: Preserver of Fortune",
+                "talent_type": "Elemental Burst",
+                "talent_id": 19
+            }
+        ],
+        "special_dish": "No Tomorrow",
+        "ascension_stat": "Healing Bonus",
+        "release_version": "1.0",
+        "release_date": "2020-09-28",
+        "character_id": 13
+    },
+    {
+        "character_name": "Chiori",
+        "character_element": "Geo",
+        "region": "Inazuma",
+        "rarity": 5,
+        "weapon_type": "Sword",
+        "birthday": "17.8.",
+        "model_type": "Medium Female",
+        "talents": [
+            {
+                "talent_name": "Weaving Blade",
+                "talent_type": "Normal Attack",
+                "talent_id": 24
+            },
+            {
+                "talent_name": "Fluttering Hasode",
+                "talent_type": "Elemental Skill",
+                "talent_id": 23
+            },
+            {
+                "talent_name": "Hiyoku: Twin Blades",
+                "talent_type": "Elemental Burst",
+                "talent_id": 22
+            }
+        ],
+        "special_dish": "Fashion Show",
+        "ascension_stat": "Crit Rate",
+        "release_version": "4.5",
+        "release_date": "2024-03-13",
+        "character_id": 14
+    },
+    {
+        "character_name": "Neuvillette",
+        "character_element": "Hydro",
+        "region": "Fontaine",
+        "rarity": 5,
+        "weapon_type": "Catalyst",
+        "birthday": "18.12.",
+        "model_type": "Tall Male",
+        "talents": [
+            {
+                "talent_name": "As Water Seeks Equilibrium",
+                "talent_type": "Normal Attack",
+                "talent_id": 27
+            },
+            {
+                "talent_name": "O Tears, I Shall Repay",
+                "talent_type": "Elemental Skill",
+                "talent_id": 26
+            },
+            {
+                "talent_name": "O Tides, I Have Returned",
+                "talent_type": "Elemental Burst",
+                "talent_id": 25
+            }
+        ],
+        "special_dish": "Consomme Purete",
+        "ascension_stat": "Crit DMG",
+        "release_version": "4.1",
+        "release_date": "2023-09-27",
+        "character_id": 15
+    }
+]

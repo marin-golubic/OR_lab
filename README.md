@@ -93,6 +93,7 @@ Podaci o talentima nalaze se unutar polja `talents`, čime je očuvana hijerarhi
 | `genshin_impact.sql` | Dump PostgreSQL baze podataka, uključujući strukturu i podatke |
 | `README.md` | Dokumentacija skupa podataka |
 | `LICENSE` | Uvjeti korištenja skupa podataka |
+| `sql mapa` | Primjeri naredbi za unos u tablice |
 
 ## Postupak izvoza podataka
 

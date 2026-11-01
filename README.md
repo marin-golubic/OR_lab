@@ -93,13 +93,14 @@ Podaci o talentima nalaze se unutar polja `talents`, čime je očuvana hijerarhi
 | `genshin_impact.sql` | Dump PostgreSQL baze podataka, uključujući strukturu i podatke |
 | `README.md` | Dokumentacija skupa podataka |
 | `LICENSE` | Uvjeti korištenja skupa podataka |
-| `export.sql` | SQL naredbe za automatizirani izvoz podataka, ako je datoteka priložena |
 
 ## Postupak izvoza podataka
 
 Podaci su iz PostgreSQL baze izvezeni u CSV i JSON format pomoću SQL naredbe `COPY`.
 
-Za CSV format korišten je SQL upit
+Za CSV format korišten je SQL upit koji povezuje tablice characters i talents.
+
+Za JSON format korištene su PostgreSQL funkcije json_build_object i json_agg, koje omogućuju prikaz likova i njihovih talenata u hijerarhijskoj strukturi.
 
 ## Licencija
 
@@ -117,3 +118,11 @@ Nazivi likova, igre i drugi elementi povezani s Genshin Impactom pripadaju njiho
 - [Genshin Impact Wiki](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki)
 - [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
 - [Uvjeti autorskih prava na Genshin Impact Wikiju](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki:Copyrights)
+
+## Napomene
+
+Genshin Impact je videoigra tvrtke HoYoverse. Nazivi likova, talenata i ostali elementi igre povezani su s pravima njihovih nositelja.
+
+Podaci su prikupljeni i strukturirani u obrazovne svrhe u sklopu prve laboratorijske vježbe iz kolegija Otvoreno računarstvo.
+
+Skup podataka može sadržavati nepotpune vrijednosti te je podložan budućim izmjenama i ažuriranjima.

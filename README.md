@@ -2,30 +2,35 @@
 
 ## Opis skupa podataka
 
-Ovaj otvoreni skup podataka sadrži informacije o likovima iz videoigre **Genshin Impact** i njihovim talentima.
+Ovaj otvoreni skup podataka sadrži informacije o igrivim likovima iz videoigre Genshin Impact, njihovim talentima, oružjima, preporučenim setovima artefakata, domenama i materijalima za uzdizanje oružja.
 
-Skup podataka obuhvaća 15 likova i 45 talenata. Za svakog lika navedeni su osnovni podaci poput imena, elementa, regije, rijetkosti, vrste oružja, datuma rođenja, posebnog jela, statistike napredovanja i verzije igre u kojoj je lik objavljen.
+Skup podataka obuhvaća 124 lika, uključujući Aethera i Lumine kao zasebne likove. Za svakog lika navedeni su osnovni podaci poput imena, elementa, regije, rijetkosti, vrste oružja, datuma rođenja, posebnog jela, statistike napredovanja i verzije igre u kojoj je lik objavljen.
 
-Podaci su pohranjeni u relacijskoj bazi podataka PostgreSQL, u dvije međusobno povezane tablice: `characters` i `talents`.
+Podaci su pohranjeni u relacijskoj bazi PostgreSQL. Baza sadrži osam međusobno povezanih tablica koje omogućuju prikaz odnosa između likova, talenata, oružja, artefakata i domena.
 
-Skup podataka dostupan je u formatima **CSV** i **JSON** kako bi se omogućilo jednostavno čitanje, obrada i ponovno korištenje podataka.
+Skup podataka dostupan je u formatima CSV i JSON, a njegova struktura opisana je specifikacijom JSON Schema Draft-07.
+
+Za povećanje pristupačnosti i vidljivosti podataka izrađena je web-aplikacija koja omogućuje pregled podataka u HTML tablici, filtriranje po atributima i preuzimanje filtriranih rezultata u CSV i JSON formatima.
 
 ## Metapodaci
 
 | Metapodatak | Vrijednost |
 |---|---|
-| Naziv skupa podataka | Genshin Impact Characters and Talents Dataset |
+| Naziv skupa podataka | Genshin Impact Characters+ Dataset |
 | Autor | Marin Golubic |
-| Verzija | 1.0 |
-| Datum izrade | 30.10.2026. |
-| Datum posljednje izmjene | 1.11.2026. |
+| Verzija | 2.0 |
+| Datum izrade | 14.11.2026. |
+| Datum posljednje izmjene | 15.11.2026. |
 | Jezik podataka | Engleski |
 | Jezik dokumentacije | Hrvatski |
 | Tema | Videoigre |
-| Broj likova | 15 |
+| Broj likova | 124 |
 | Broj talenata | 45 |
 | Broj atributa u CSV datoteci | 15 |
 | Formati podataka | CSV, JSON |
+| Format Metapodataka | JSON Schema Draft-07 |
+| Backend | Node.js, Express |
+| Frontend | HTML, SCC, JavaScript |
 | Baza podataka | PostgreSQL |
 | Licencija | CC BY-SA 3.0 |
 | Izvor podataka | https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki |
@@ -51,6 +56,8 @@ Skup podataka dostupan je u formatima **CSV** i **JSON** kako bi se omogućilo j
 | `talent_id` | Integer | Jedinstveni identifikator talenta |
 | `talent_name` | String | Naziv talenta |
 | `talent_type` | String | Vrsta talenta: Normal Attack, Elemental Skill ili Elemental Burst |
+| `weapons` | Array | Niz povezanih oružja |
+| `artifacts` | Array | Niz preporučenih setova artefakata |
 
 U JSON datoteci talenti su grupirani unutar polja `talents`, koje sadrži objekte s atributima `talent_id`, `talent_name` i `talent_type`.
 
@@ -58,7 +65,20 @@ Nepoznate vrijednosti prikazane su kao `null` u JSON datoteci, odnosno kao prazn
 
 ## Model baze podataka
 
-Baza podataka sastoji se od dvije tablice.
+Baza podataka izrađena je korištenjem sustava PostgreSQL i sastoji se od osam međusobno povezanih tablica:
+
+- `characters` – osnovni podaci o igrivim likovima.
+- `talents` – talenti likova povezani s tablicom `characters` odnosom 1:N.
+- `weapons` – oružja, njihove karakteristike i pripadajući materijali za uzdizanje.
+- `artifacts` – setovi artefakata povezani s domenama.
+- `domains` – domene, njihove regije i vrste.
+- `weapon_ascension_materials` – obitelji materijala za uzdizanje oružja i pripadajuće domene.
+- `character_weapons` – povezna tablica koja ostvaruje M:N odnos između likova i oružja.
+- `character_artifacts` – povezna tablica koja ostvaruje M:N odnos između likova i setova artefakata.
+
+Podaci su normalizirani kako bi se smanjilo nepotrebno ponavljanje informacija i očuvao referencijalni integritet baze.
+
+Povezne tablice omogućuju pridruživanje više oružja ili setova artefakata pojedinom liku, kao i korištenje istog oružja ili seta artefakata kod više likova.
 
 ### Tablica characters
 
@@ -74,26 +94,116 @@ Između tablica postoji odnos **jedan-prema-više (1:N)**, što znači da jedan 
 
 ### CSV format
 
-CSV datoteka sadrži podatke iz obje tablice spojene SQL naredbom `JOIN`.
+CSV datoteka sadrži jedan redak za svakog lika i ukupno 15 atributa.
 
-Budući da CSV format ne podržava hijerarhijsku strukturu, podaci o pojedinom liku ponavljaju se u svakom retku za njegov talent.
+Budući da CSV ne podržava hijerarhijsku strukturu podataka, povezani podaci o oružjima, talentima i artefaktima zapisani su kao serijalizirani JSON nizovi unutar odgovarajućih stupaca.
 
 ### JSON format
 
 JSON datoteka sadrži polje objekata, pri čemu svaki objekt predstavlja jednog lika.
 
-Podaci o talentima nalaze se unutar polja `talents`, čime je očuvana hijerarhijska struktura i prikazan odnos između roditeljskog i povezanog entiteta.
+Povezani podaci organizirani su u tri ugniježđena niza:
+
+- `weapons` – oružja povezana s likom.
+- `talents` – talenti lika.
+- `artifacts` – preporučeni setovi artefakata.
+
+Prazni nizovi označavaju da za određenog lika još nisu uneseni povezani podaci. Nepoznate vrijednosti prikazane su kao `null`.
+
+### JSON Schema
+
+Datoteka `schema.json` opisuje strukturu JSON skupa podataka korištenjem specifikacije JSON Schema Draft-07.
+
+Za svaki atribut definirani su naziv, opis, tip podatka i nužnost postojanja. Za pojedine atribute dodatno su definirana ograničenja poput dopuštenog raspona vrijednosti i formata.
+
+## Web-aplikacija
+
+Za potrebe druge laboratorijske vježbe izrađena je web-aplikacija korištenjem tehnologija **Node.js, Express, HTML, CSS i JavaScript**.
+
+Web-aplikacija omogućuje pristup podacima u ljudima čitljivom obliku, dok se CSV i JSON datoteke koriste za strojno čitljiv prikaz podataka.
+
+### Početna stranica
+
+Datoteka `index.html` sadrži opis skupa podataka, metapodatke, poveznice za preuzimanje cjelokupnog skupa podataka u CSV i JSON formatima te poveznicu na stranicu s podatkovnom tablicom.
+
+### Podatkovna tablica
+
+Datoteka `datatable.html` prikazuje podatke o likovima i njihovim povezanim entitetima u HTML tablici.
+
+Podaci se dohvaćaju asinkrono pomoću JavaScript funkcije `fetch()` i HTTP zahtjeva prema Express poslužitelju, bez ponovnog učitavanja stranice.
+
+Poslužiteljska aplikacija dohvaća podatke izravno iz PostgreSQL baze.
+
+### Filtriranje podataka
+
+Korisnik može pretraživati podatke unosom teksta te odabrati atribut po kojem želi pretraživati.
+
+Zadano je omogućeno pretraživanje po svim atributima (*wildcard*). Poništavanjem filtra ponovno se prikazuju svi dostupni zapisi.
+
+### Preuzimanje podataka
+
+Web-aplikacija omogućuje preuzimanje cjelokupnog skupa podataka u CSV i JSON formatima.
+
+Na stranici s podatkovnom tablicom omogućeno je i preuzimanje trenutačno filtriranih rezultata u istim formatima.
+
+## Pokretanje web-aplikacije
+
+Za pokretanje aplikacije potrebno je imati instalirane Node.js i PostgreSQL.
+
+Nakon preuzimanja repozitorija potrebno je instalirati ovisnosti:
+
+```bash
+npm install
+```
+
+Potrebno je konfigurirati datoteku `.env` s podacima za povezivanje na PostgreSQL bazu:
+
+```dotenv
+DB_HOST=localhost
+DB_PORT=5432
+DB_USER=postgres
+DB_PASSWORD=your_password
+DB_NAME=genshin_impact
+PORT=3000
+```
+
+Nakon konfiguracije aplikacija se pokreće naredbom:
+
+```bash
+node web_gui/backend/server.js
+```
+
+Početna stranica dostupna je na adresi:
+
+http://localhost:3000/
+
+Podatkovna tablica dostupna je na adresi:
+
+http://localhost:3000/datatable.html
+
+Datoteka `.env` nije uključena u repozitorij zbog zaštite pristupnih podataka.
 
 ## Datoteke
 
 | Datoteka | Opis |
 |---|---|
-| `genshin_impact.csv` | Podaci o likovima i talentima u CSV formatu |
-| `genshin_impact.json` | Podaci o likovima i pripadajućim talentima u JSON formatu |
-| `genshin_impact.sql` | Dump PostgreSQL baze podataka, uključujući strukturu i podatke |
-| `README.md` | Dokumentacija skupa podataka |
+| `genshin_impact.csv` | Podaci o likovima, talentima, oružjima i artefaktima u CSV formatu |
+| `genshin_impact.json` | Podaci o likovima i povezanim entitetima u hijerarhijskom JSON formatu |
+| `schema.json` | JSON Schema koja opisuje strukturu i tipove podataka u JSON datoteci |
+| `genshin_impact.sql` | Dump PostgreSQL baze podataka, uključujući strukturu, podatke i relacije |
+| `README.md` | Dokumentacija skupa podataka i upute za korištenje web-aplikacije |
 | `LICENSE` | Uvjeti korištenja skupa podataka |
-| `sql mapa` | Primjeri naredbi za unos u tablice |
+| `sql/` | SQL skripte za izradu, popunjavanje i izvoz podataka iz baze |
+| `web_gui/frontend/index.html` | Početna web-stranica s opisom skupa podataka, metapodacima i poveznicama za preuzimanje |
+| `web_gui/frontend/datatable.html` | Web-stranica s tabličnim prikazom, pretraživanjem i filtriranjem podataka |
+| `web_gui/frontend/styles/style.css` | CSS stilovi početne web-stranice |
+| `web_gui/frontend/styles/datatable.css` | CSS stilovi podatkovne tablice |
+| `web_gui/frontend/js/datatable.js` | JavaScript za asinkrono dohvaćanje, filtriranje i preuzimanje podataka |
+| `web_gui/backend/server.js` | Express poslužitelj koji omogućuje pristup web-stranicama i dohvaćanje podataka iz baze |
+| `web_gui/backend/db.js` | Konfiguracija povezivanja s PostgreSQL bazom podataka |
+| `package.json` | Konfiguracija Node.js projekta i popis potrebnih ovisnosti |
+| `package-lock.json` | Podaci o instaliranim verzijama ovisnosti Node.js projekta |
+| `.gitignore` | Popis datoteka i mapa koje Git ne uključuje u repozitorij |
 
 ## Postupak izvoza podataka
 

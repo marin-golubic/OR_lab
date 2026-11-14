@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Search and download Genshin Impact character data.">
+    <meta name="author" content="Marin Golubic">
+    <title>Genshin Impact - Data Table</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/datatable.css">
+    <script src="/js/datatable.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Genshin Impact Data Table</h1>
+        <p>Browse and filter characters, talents, weapons and artifacts</p>
+    </header>
+    <main class="wide-main">
+        <section>
+            <a href="/">&larr; Back to homepage</a>
+            <h2>Filter Characters</h2>
+            <form id="filter-form" class="filters">
+                <label for="search">Search</label>
+                <input id="search" name="search" type="search" placeholder="e.g. Pyro, Hu Tao, Staff of Homa">
+                <label for="attribute">Attribute</label>
+                <select id="attribute" name="attribute">
+                    <option value="all">All attributes (wildcard)</option>
+                    <option value="character_name">Character name</option>
+                    <option value="character_element">Element</option>
+                    <option value="region">Region</option>
+                    <option value="rarity">Rarity</option>
+                    <option value="weapon_type">Weapon type</option>
+                    <option value="birthday">Birthday</option>
+                    <option value="model_type">Model type</option>
+                    <option value="weapons">Weapons</option>
+                    <option value="talents">Talents</option>
+                    <option value="artifacts">Artifacts</option>
+                    <option value="special_dish">Special dish</option>
+                    <option value="ascension_stat">Ascension stat</option>
+                    <option value="release_version">Release version</option>
+                    <option value="release_date">Release date</option>
+                    <option value="character_id">Character ID</option>
+                </select>
+                <button class="button" type="submit">Search</button>
+                <button class="button secondary" type="button" id="reset">Clear filter</button>
+            </form>
+        </section>
+        <section>
+            <div class="table-toolbar">
+                <div>
+                    <h2>Characters</h2>
+                    <p id="status" role="status" aria-live="polite">Loading...</p>
+                </div>
+                <div class="actions">
+                    <button class="button" id="download-json" type="button" disabled>Download filtered JSON</button>
+                    <button class="button" id="download-csv" type="button" disabled>Download filtered CSV</button>
+                </div>
+            </div>
+            <div class="table-scroll">
+                <table id="characters-table">
+                    <thead>
+                        <tr>
+                            <th>Character</th><th>Element</th><th>Region</th><th>Rarity</th>
+                            <th>Weapon type</th><th>Birthday</th><th>Model type</th>
+                            <th>Weapons</th><th>Talents</th><th>Artifacts</th>
+                            <th>Special dish</th><th>Ascension stat</th><th>Release version</th>
+                            <th>Release date</th><th>ID</th>
+                        </tr>
+                    </thead>
+                    <tbody id="characters-body"></tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer><p>Open Computing - FER, University of Zagreb</p></footer>
+</body>
+</html>

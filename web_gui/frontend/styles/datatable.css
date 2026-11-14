@@ -1,0 +1,21 @@
+.wide-main { max-width: 1450px; }
+.filters { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.filters label { font-weight: bold; }
+.filters input, .filters select {
+    background: #171d2b; color: #e9e5dc; border: 1px solid #87909e;
+    border-radius: 6px; padding: 10px; font: inherit;
+}
+.filters input { flex: 1 1 220px; }
+.filters select { flex: 1 1 200px; }
+button { cursor: pointer; border: none; font: inherit; }
+button:disabled { opacity: .5; cursor: not-allowed; }
+.button.secondary { background: #455068; color: #fff; }
+.table-toolbar { display: flex; gap: 16px; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+.table-toolbar h2 { margin-bottom: 0; }
+.table-scroll { overflow-x: auto; margin-top: 16px; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { border: 1px solid #455068; padding: 10px 12px; text-align: left; vertical-align: top; }
+th { background: #172032; color: #e5c78b; white-space: nowrap; }
+tr:nth-child(even) { background: #20293b; }
+tbody tr:hover { background: #313e54; }
+td { min-width: 100px; }

@@ -1,0 +1,7 @@
+CREATE TABLE domains (
+    domain_id SERIAL PRIMARY KEY,
+    domain_name VARCHAR(100) NOT NULL UNIQUE,
+    region VARCHAR(50) NOT NULL,
+    domain_type VARCHAR(30) NOT NULL
+        CHECK (domain_type IN ('Artifact', 'Weapon Ascension'))
+);

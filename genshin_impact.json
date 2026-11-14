@@ -7,6 +7,19 @@
         "weapon_type": "Polearm",
         "birthday": "15.7.",
         "model_type": "Medium Female",
+        "weapons": [
+            {
+                "weapon_name": "Staff of Homa",
+                "weapon_type": "Polearm",
+                "rarity": 5,
+                "base_attack": 608,
+                "secondary_stat": "CRIT DMG 66.2%",
+                "material_name": "Aerosiderite",
+                "material_domain": "Hidden Palace of Lianshan Formula",
+                "material_region": "Liyue",
+                "weapon_id": 1
+            }
+        ],
         "talents": [
             {
                 "talent_name": "Secret Spear of Wangsheng",
@@ -24,6 +37,20 @@
                 "talent_id": 3
             }
         ],
+        "artifacts": [
+            {
+                "artifact_name": "Crimson Witch of Flames",
+                "domain_name": "Hidden Palace of Zhou Formula",
+                "domain_region": "Liyue",
+                "artifact_id": 11
+            },
+            {
+                "artifact_name": "Shimenawa's Reminiscence",
+                "domain_name": "Momiji-Dyed Court",
+                "domain_region": "Inazuma",
+                "artifact_id": 20
+            }
+        ],
         "special_dish": "Ghostly March",
         "ascension_stat": "Crit DMG",
         "release_version": "1.3",
@@ -38,11 +65,24 @@
         "weapon_type": "Sword",
         "birthday": "15.5.",
         "model_type": "Tall Female",
+        "weapons": [
+            {
+                "weapon_name": "Lightbearing Moonshard",
+                "weapon_type": "Sword",
+                "rarity": 5,
+                "base_attack": 542,
+                "secondary_stat": "CRIT DMG 88.2%",
+                "material_name": "Aerosiderite",
+                "material_domain": "Hidden Palace of Lianshan Formula",
+                "material_region": "Liyue",
+                "weapon_id": 12
+            }
+        ],
         "talents": [
             {
-                "talent_name": "Golden Blade's Petaled Touch",
-                "talent_type": "Normal Attack",
-                "talent_id": 33
+                "talent_name": "Tri-Sphere Eminence",
+                "talent_type": "Elemental Burst",
+                "talent_id": 31
             },
             {
                 "talent_name": "Heaven and Earth Made Manifest",
@@ -50,9 +90,23 @@
                 "talent_id": 32
             },
             {
-                "talent_name": "Tri-Sphere Eminence",
-                "talent_type": "Elemental Burst",
-                "talent_id": 31
+                "talent_name": "Golden Blade's Petaled Touch",
+                "talent_type": "Normal Attack",
+                "talent_id": 33
+            }
+        ],
+        "artifacts": [
+            {
+                "artifact_name": "Husk of Opulent Dreams",
+                "domain_name": "Slumbering Court",
+                "domain_region": "Inazuma",
+                "artifact_id": 21
+            },
+            {
+                "artifact_name": "Night of the Sky's Unveiling",
+                "domain_name": "Frostladen Machinery",
+                "domain_region": "Nod-Krai",
+                "artifact_id": 39
             }
         ],
         "special_dish": "Flavor of Spring",
@@ -69,11 +123,24 @@
         "weapon_type": "Catalyst",
         "birthday": "14.1.",
         "model_type": "Medium Female",
+        "weapons": [
+            {
+                "weapon_name": "Nocturne's Curtain Call",
+                "weapon_type": "Catalyst",
+                "rarity": 5,
+                "base_attack": 542,
+                "secondary_stat": "CRIT DMG 88.2%",
+                "material_name": "Far-North Scions",
+                "material_domain": "Lost Mooncourt",
+                "material_region": "Nod-Krai",
+                "weapon_id": 14
+            }
+        ],
         "talents": [
             {
-                "talent_name": "Moondew Cascade",
-                "talent_type": "Normal Attack",
-                "talent_id": 6
+                "talent_name": "Moonlit Melancholy",
+                "talent_type": "Elemental Burst",
+                "talent_id": 4
             },
             {
                 "talent_name": "Eternal Tides",
@@ -81,9 +148,23 @@
                 "talent_id": 5
             },
             {
-                "talent_name": "Moonlit Melancholy",
-                "talent_type": "Elemental Burst",
-                "talent_id": 4
+                "talent_name": "Moondew Cascade",
+                "talent_type": "Normal Attack",
+                "talent_id": 6
+            }
+        ],
+        "artifacts": [
+            {
+                "artifact_name": "Aubade of Morningstar and Moon",
+                "domain_name": "Moonchild's Treasures",
+                "domain_region": "Nod-Krai",
+                "artifact_id": 41
+            },
+            {
+                "artifact_name": "Silken Moon's Serenade",
+                "domain_name": "Frostladen Machinery",
+                "domain_region": "Nod-Krai",
+                "artifact_id": 40
             }
         ],
         "special_dish": "Moonlit Mirage",
@@ -100,11 +181,24 @@
         "weapon_type": "Sword",
         "birthday": "13.10.",
         "model_type": "Medium Female",
+        "weapons": [
+            {
+                "weapon_name": "Splendor of Tranquil Waters",
+                "weapon_type": "Sword",
+                "rarity": 5,
+                "base_attack": 542,
+                "secondary_stat": "CRIT DMG 88.2%",
+                "material_name": "Pure Sacred Dewdrop",
+                "material_domain": "Echoes of the Deep Tides",
+                "material_region": "Fontaine",
+                "weapon_id": 4
+            }
+        ],
         "talents": [
             {
-                "talent_name": "Soloist's Solicitation",
-                "talent_type": "Normal Attack",
-                "talent_id": 9
+                "talent_name": "Let the People Rejoice",
+                "talent_type": "Elemental Burst",
+                "talent_id": 7
             },
             {
                 "talent_name": "Salon Solitaire",
@@ -112,9 +206,17 @@
                 "talent_id": 8
             },
             {
-                "talent_name": "Let the People Rejoice",
-                "talent_type": "Elemental Burst",
-                "talent_id": 7
+                "talent_name": "Soloist's Solicitation",
+                "talent_type": "Normal Attack",
+                "talent_id": 9
+            }
+        ],
+        "artifacts": [
+            {
+                "artifact_name": "Golden Troupe",
+                "domain_name": "Denouement of Sin",
+                "domain_region": "Fontaine",
+                "artifact_id": 30
             }
         ],
         "special_dish": "Pour la Justice",
@@ -131,11 +233,12 @@
         "weapon_type": "Claymore",
         "birthday": "13.1.",
         "model_type": "Medium Female",
+        "weapons": [],
         "talents": [
             {
-                "talent_name": "Formule Phenomenale: Self-Evident Proposition",
-                "talent_type": "Normal Attack",
-                "talent_id": 30
+                "talent_name": "Formule Phenomenale: Q.E.D.",
+                "talent_type": "Elemental Burst",
+                "talent_id": 28
             },
             {
                 "talent_name": "Formule Phenomenale: Differential Analysis",
@@ -143,11 +246,12 @@
                 "talent_id": 29
             },
             {
-                "talent_name": "Formule Phenomenale: Q.E.D.",
-                "talent_type": "Elemental Burst",
-                "talent_id": 28
+                "talent_name": "Formule Phenomenale: Self-Evident Proposition",
+                "talent_type": "Normal Attack",
+                "talent_id": 30
             }
         ],
+        "artifacts": [],
         "special_dish": "Tea Party Polyphony",
         "ascension_stat": "Crit Rate",
         "release_version": "Luna VIII",
@@ -162,11 +266,12 @@
         "weapon_type": "Bow",
         "birthday": "21.6.",
         "model_type": "Medium Female",
+        "weapons": [],
         "talents": [
             {
-                "talent_name": "Firework Flare-Up",
-                "talent_type": "Normal Attack",
-                "talent_id": 12
+                "talent_name": "Ryuukin Saxifrage",
+                "talent_type": "Elemental Burst",
+                "talent_id": 10
             },
             {
                 "talent_name": "Niwabi Fire-Dance",
@@ -174,11 +279,12 @@
                 "talent_id": 11
             },
             {
-                "talent_name": "Ryuukin Saxifrage",
-                "talent_type": "Elemental Burst",
-                "talent_id": 10
+                "talent_name": "Firework Flare-Up",
+                "talent_type": "Normal Attack",
+                "talent_id": 12
             }
         ],
+        "artifacts": [],
         "special_dish": "Summer Festival Fish",
         "ascension_stat": "Crit Rate",
         "release_version": "2.0",
@@ -193,11 +299,24 @@
         "weapon_type": "Catalyst",
         "birthday": "22.2.",
         "model_type": "Medium Female",
+        "weapons": [
+            {
+                "weapon_name": "Everlasting Moonglow",
+                "weapon_type": "Catalyst",
+                "rarity": 5,
+                "base_attack": 608,
+                "secondary_stat": "HP 49.6%",
+                "material_name": "Distant Sea",
+                "material_domain": "Court of Flowing Sand",
+                "material_region": "Inazuma",
+                "weapon_id": 6
+            }
+        ],
         "talents": [
             {
-                "talent_name": "The Shape of Water",
-                "talent_type": "Normal Attack",
-                "talent_id": 15
+                "talent_name": "Nereid's Ascension",
+                "talent_type": "Elemental Burst",
+                "talent_id": 13
             },
             {
                 "talent_name": "Kurage's Oath",
@@ -205,9 +324,23 @@
                 "talent_id": 14
             },
             {
-                "talent_name": "Nereid's Ascension",
-                "talent_type": "Elemental Burst",
-                "talent_id": 13
+                "talent_name": "The Shape of Water",
+                "talent_type": "Normal Attack",
+                "talent_id": 15
+            }
+        ],
+        "artifacts": [
+            {
+                "artifact_name": "Ocean-Hued Clam",
+                "domain_name": "Slumbering Court",
+                "domain_region": "Inazuma",
+                "artifact_id": 22
+            },
+            {
+                "artifact_name": "Tenacity of the Millelith",
+                "domain_name": "Ridge Watch",
+                "domain_region": "Liyue",
+                "artifact_id": 15
             }
         ],
         "special_dish": "A Stunning Stratagem",
@@ -224,11 +357,12 @@
         "weapon_type": "Bow",
         "birthday": "23.5.",
         "model_type": "Medium Female",
+        "weapons": [],
         "talents": [
             {
-                "talent_name": "Capture Protocol",
-                "talent_type": "Normal Attack",
-                "talent_id": 39
+                "talent_name": "Memo: Survival Guide in Extreme Conditions",
+                "talent_type": "Elemental Burst",
+                "talent_id": 37
             },
             {
                 "talent_name": "Countermeasure: Lumi's Battle Cry!",
@@ -236,11 +370,12 @@
                 "talent_id": 38
             },
             {
-                "talent_name": "Memo: Survival Guide in Extreme Conditions",
-                "talent_type": "Elemental Burst",
-                "talent_id": 37
+                "talent_name": "Capture Protocol",
+                "talent_type": "Normal Attack",
+                "talent_id": 39
             }
         ],
+        "artifacts": [],
         "special_dish": "Iridescence Under the Tree's Shade",
         "ascension_stat": "Crit Rate",
         "release_version": "Luna VI",
@@ -255,11 +390,24 @@
         "weapon_type": "Sword",
         "birthday": "4.2.",
         "model_type": null,
+        "weapons": [
+            {
+                "weapon_name": "Beyond the Chrysalis",
+                "weapon_type": "Sword",
+                "rarity": 5,
+                "base_attack": 674,
+                "secondary_stat": "CRIT DMG 44.1%",
+                "material_name": "Pale Star Army",
+                "material_domain": "Scars of Cursed Obsession",
+                "material_region": "Snezhnaya",
+                "weapon_id": 13
+            }
+        ],
         "talents": [
             {
-                "talent_name": "Vila Blade Dance",
-                "talent_type": "Normal Attack",
-                "talent_id": 36
+                "talent_name": "For the Tsaritsa!",
+                "talent_type": "Elemental Burst",
+                "talent_id": 34
             },
             {
                 "talent_name": "The Art of Victory",
@@ -267,9 +415,23 @@
                 "talent_id": 35
             },
             {
-                "talent_name": "For the Tsaritsa!",
-                "talent_type": "Elemental Burst",
-                "talent_id": 34
+                "talent_name": "Vila Blade Dance",
+                "talent_type": "Normal Attack",
+                "talent_id": 36
+            }
+        ],
+        "artifacts": [
+            {
+                "artifact_name": "Scarlet Proof",
+                "domain_name": "Inverted Glacier",
+                "domain_region": "Snezhnaya",
+                "artifact_id": 45
+            },
+            {
+                "artifact_name": "Viridescent Venerer",
+                "domain_name": "Valley of Remembrance",
+                "domain_region": "Mondstadt",
+                "artifact_id": 3
             }
         ],
         "special_dish": "Hoarfrost Soup",
@@ -286,11 +448,24 @@
         "weapon_type": "Catalyst",
         "birthday": "27.7.",
         "model_type": "Short Female",
+        "weapons": [
+            {
+                "weapon_name": "Dodoco Tales",
+                "weapon_type": "Catalyst",
+                "rarity": 4,
+                "base_attack": 454,
+                "secondary_stat": "ATK 55.1%",
+                "material_name": "Boreal Wolf",
+                "material_domain": "Cecilia Garden",
+                "material_region": "Mondstadt",
+                "weapon_id": 11
+            }
+        ],
         "talents": [
             {
-                "talent_name": "Kaboom!",
-                "talent_type": "Normal Attack",
-                "talent_id": 18
+                "talent_name": "Sparks 'n' Splash",
+                "talent_type": "Elemental Burst",
+                "talent_id": 16
             },
             {
                 "talent_name": "Jumpy Dumpty",
@@ -298,9 +473,17 @@
                 "talent_id": 17
             },
             {
-                "talent_name": "Sparks 'n' Splash",
-                "talent_type": "Elemental Burst",
-                "talent_id": 16
+                "talent_name": "Kaboom!",
+                "talent_type": "Normal Attack",
+                "talent_id": 18
+            }
+        ],
+        "artifacts": [
+            {
+                "artifact_name": "Crimson Witch of Flames",
+                "domain_name": "Hidden Palace of Zhou Formula",
+                "domain_region": "Liyue",
+                "artifact_id": 11
             }
         ],
         "special_dish": "Fish-Flavored Toast",
@@ -317,11 +500,12 @@
         "weapon_type": "Catalyst",
         "birthday": "29.9.",
         "model_type": "Tall Female",
+        "weapons": [],
         "talents": [
             {
-                "talent_name": "Allegoria",
-                "talent_type": "Normal Attack",
-                "talent_id": 42
+                "talent_name": "Revelation: Ladder of Divine Ascent",
+                "talent_type": "Elemental Burst",
+                "talent_id": 40
             },
             {
                 "talent_name": "Revelation: Uncreated Light",
@@ -329,11 +513,12 @@
                 "talent_id": 41
             },
             {
-                "talent_name": "Revelation: Ladder of Divine Ascent",
-                "talent_type": "Elemental Burst",
-                "talent_id": 40
+                "talent_name": "Allegoria",
+                "talent_type": "Normal Attack",
+                "talent_id": 42
             }
         ],
+        "artifacts": [],
         "special_dish": "Gilded Chest",
         "ascension_stat": "ATK%",
         "release_version": "Luna VII",
@@ -348,11 +533,12 @@
         "weapon_type": "Sword",
         "birthday": "14.3.",
         "model_type": "Medium Male",
+        "weapons": [],
         "talents": [
             {
-                "talent_name": "Radiant Wingslash",
-                "talent_type": "Normal Attack",
-                "talent_id": 45
+                "talent_name": "Principle of Purity: As the Light Shifts",
+                "talent_type": "Elemental Burst",
+                "talent_id": 43
             },
             {
                 "talent_name": "Binary Form: Convergence and Division",
@@ -360,11 +546,12 @@
                 "talent_id": 44
             },
             {
-                "talent_name": "Principle of Purity: As the Light Shifts",
-                "talent_type": "Elemental Burst",
-                "talent_id": 43
+                "talent_name": "Radiant Wingslash",
+                "talent_type": "Normal Attack",
+                "talent_id": 45
             }
         ],
+        "artifacts": [],
         "special_dish": "Apple Stew (Trial Version)",
         "ascension_stat": "Crit DMG",
         "release_version": "Luna III",
@@ -379,11 +566,12 @@
         "weapon_type": "Sword",
         "birthday": "3.3.",
         "model_type": "Short Female",
+        "weapons": [],
         "talents": [
             {
-                "talent_name": "Ancient Sword Art",
-                "talent_type": "Normal Attack",
-                "talent_id": 21
+                "talent_name": "Adeptus Art: Preserver of Fortune",
+                "talent_type": "Elemental Burst",
+                "talent_id": 19
             },
             {
                 "talent_name": "Adeptus Art: Herald of Frost",
@@ -391,11 +579,12 @@
                 "talent_id": 20
             },
             {
-                "talent_name": "Adeptus Art: Preserver of Fortune",
-                "talent_type": "Elemental Burst",
-                "talent_id": 19
+                "talent_name": "Ancient Sword Art",
+                "talent_type": "Normal Attack",
+                "talent_id": 21
             }
         ],
+        "artifacts": [],
         "special_dish": "No Tomorrow",
         "ascension_stat": "Healing Bonus",
         "release_version": "1.0",
@@ -410,11 +599,12 @@
         "weapon_type": "Sword",
         "birthday": "17.8.",
         "model_type": "Medium Female",
+        "weapons": [],
         "talents": [
             {
-                "talent_name": "Weaving Blade",
-                "talent_type": "Normal Attack",
-                "talent_id": 24
+                "talent_name": "Hiyoku: Twin Blades",
+                "talent_type": "Elemental Burst",
+                "talent_id": 22
             },
             {
                 "talent_name": "Fluttering Hasode",
@@ -422,11 +612,12 @@
                 "talent_id": 23
             },
             {
-                "talent_name": "Hiyoku: Twin Blades",
-                "talent_type": "Elemental Burst",
-                "talent_id": 22
+                "talent_name": "Weaving Blade",
+                "talent_type": "Normal Attack",
+                "talent_id": 24
             }
         ],
+        "artifacts": [],
         "special_dish": "Fashion Show",
         "ascension_stat": "Crit Rate",
         "release_version": "4.5",
@@ -441,11 +632,24 @@
         "weapon_type": "Catalyst",
         "birthday": "18.12.",
         "model_type": "Tall Male",
+        "weapons": [
+            {
+                "weapon_name": "Tome of the Eternal Flow",
+                "weapon_type": "Catalyst",
+                "rarity": 5,
+                "base_attack": 542,
+                "secondary_stat": "CRIT DMG 88.2%",
+                "material_name": "Pure Sacred Dewdrop",
+                "material_domain": "Echoes of the Deep Tides",
+                "material_region": "Fontaine",
+                "weapon_id": 5
+            }
+        ],
         "talents": [
             {
-                "talent_name": "As Water Seeks Equilibrium",
-                "talent_type": "Normal Attack",
-                "talent_id": 27
+                "talent_name": "O Tides, I Have Returned",
+                "talent_type": "Elemental Burst",
+                "talent_id": 25
             },
             {
                 "talent_name": "O Tears, I Shall Repay",
@@ -453,9 +657,17 @@
                 "talent_id": 26
             },
             {
-                "talent_name": "O Tides, I Have Returned",
-                "talent_type": "Elemental Burst",
-                "talent_id": 25
+                "talent_name": "As Water Seeks Equilibrium",
+                "talent_type": "Normal Attack",
+                "talent_id": 27
+            }
+        ],
+        "artifacts": [
+            {
+                "artifact_name": "Marechaussee Hunter",
+                "domain_name": "Denouement of Sin",
+                "domain_region": "Fontaine",
+                "artifact_id": 29
             }
         ],
         "special_dish": "Consomme Purete",
@@ -463,5 +675,2012 @@
         "release_version": "4.1",
         "release_date": "2023-09-27",
         "character_id": 15
+    },
+    {
+        "character_name": "Diluc",
+        "character_element": "Pyro",
+        "region": "Mondstadt",
+        "rarity": 5,
+        "weapon_type": "Claymore",
+        "birthday": "30.4.",
+        "model_type": "Tall Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Once Upon a Time in Mondstadt",
+        "ascension_stat": "Crit Rate",
+        "release_version": "1.0",
+        "release_date": "2020-09-28",
+        "character_id": 16
+    },
+    {
+        "character_name": "Jean",
+        "character_element": "Anemo",
+        "region": "Mondstadt",
+        "rarity": 5,
+        "weapon_type": "Sword",
+        "birthday": "14.3.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Invigorating Pizza",
+        "ascension_stat": "Healing Bonus",
+        "release_version": "1.0",
+        "release_date": "2020-09-28",
+        "character_id": 17
+    },
+    {
+        "character_name": "Keqing",
+        "character_element": "Electro",
+        "region": "Liyue",
+        "rarity": 5,
+        "weapon_type": "Sword",
+        "birthday": "20.11.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Survival Grilled Fish",
+        "ascension_stat": "Crit DMG",
+        "release_version": "1.0",
+        "release_date": "2020-09-28",
+        "character_id": 18
+    },
+    {
+        "character_name": "Mona",
+        "character_element": "Hydro",
+        "region": "Mondstadt",
+        "rarity": 5,
+        "weapon_type": "Catalyst",
+        "birthday": "31.8.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Der Weisheit Letzter Schluss",
+        "ascension_stat": "Energy Recharge",
+        "release_version": "1.0",
+        "release_date": "2020-09-28",
+        "character_id": 19
+    },
+    {
+        "character_name": "Venti",
+        "character_element": "Anemo",
+        "region": "Mondstadt",
+        "rarity": 5,
+        "weapon_type": "Bow",
+        "birthday": "16.6.",
+        "model_type": "Medium Male",
+        "weapons": [
+            {
+                "weapon_name": "Elegy for the End",
+                "weapon_type": "Bow",
+                "rarity": 5,
+                "base_attack": 608,
+                "secondary_stat": "Energy Recharge 55.1%",
+                "material_name": "Boreal Wolf",
+                "material_domain": "Cecilia Garden",
+                "material_region": "Mondstadt",
+                "weapon_id": 9
+            }
+        ],
+        "talents": [],
+        "artifacts": [
+            {
+                "artifact_name": "Viridescent Venerer",
+                "domain_name": "Valley of Remembrance",
+                "domain_region": "Mondstadt",
+                "artifact_id": 3
+            }
+        ],
+        "special_dish": "A Buoyant Breeze",
+        "ascension_stat": "Energy Recharge",
+        "release_version": "1.0",
+        "release_date": "2020-09-28",
+        "character_id": 20
+    },
+    {
+        "character_name": "Amber",
+        "character_element": "Pyro",
+        "region": "Mondstadt",
+        "rarity": 4,
+        "weapon_type": "Bow",
+        "birthday": "10.8.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Outrider's Champion Steak!",
+        "ascension_stat": "ATK",
+        "release_version": "1.0",
+        "release_date": "2020-09-28",
+        "character_id": 21
+    },
+    {
+        "character_name": "Barbara",
+        "character_element": "Hydro",
+        "region": "Mondstadt",
+        "rarity": 4,
+        "weapon_type": "Catalyst",
+        "birthday": "5.7.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Spicy Stew",
+        "ascension_stat": "HP",
+        "release_version": "1.0",
+        "release_date": "2020-09-28",
+        "character_id": 22
+    },
+    {
+        "character_name": "Beidou",
+        "character_element": "Electro",
+        "region": "Liyue",
+        "rarity": 4,
+        "weapon_type": "Claymore",
+        "birthday": "14.2.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [
+            {
+                "artifact_name": "Emblem of Severed Fate",
+                "domain_name": "Momiji-Dyed Court",
+                "domain_region": "Inazuma",
+                "artifact_id": 19
+            }
+        ],
+        "special_dish": "Flash-Fried Filet",
+        "ascension_stat": "Electro DMG Bonus",
+        "release_version": "1.0",
+        "release_date": "2020-09-28",
+        "character_id": 23
+    },
+    {
+        "character_name": "Bennett",
+        "character_element": "Pyro",
+        "region": "Mondstadt",
+        "rarity": 4,
+        "weapon_type": "Sword",
+        "birthday": "29.2.",
+        "model_type": "Medium Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Teyvat Charred Egg",
+        "ascension_stat": "Energy Recharge",
+        "release_version": "1.0",
+        "release_date": "2020-09-28",
+        "character_id": 24
+    },
+    {
+        "character_name": "Chongyun",
+        "character_element": "Cryo",
+        "region": "Liyue",
+        "rarity": 4,
+        "weapon_type": "Claymore",
+        "birthday": "7.9.",
+        "model_type": "Medium Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Cold Noodles with Mountain Delicacies",
+        "ascension_stat": "ATK",
+        "release_version": "1.0",
+        "release_date": "2020-09-28",
+        "character_id": 25
+    },
+    {
+        "character_name": "Fischl",
+        "character_element": "Electro",
+        "region": "Mondstadt",
+        "rarity": 4,
+        "weapon_type": "Bow",
+        "birthday": "27.5.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Die Heilige Sinfonie",
+        "ascension_stat": "ATK",
+        "release_version": "1.0",
+        "release_date": "2020-09-28",
+        "character_id": 26
+    },
+    {
+        "character_name": "Kaeya",
+        "character_element": "Cryo",
+        "region": "Mondstadt",
+        "rarity": 4,
+        "weapon_type": "Sword",
+        "birthday": "30.11.",
+        "model_type": "Tall Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Fruity Skewers",
+        "ascension_stat": "Energy Recharge",
+        "release_version": "1.0",
+        "release_date": "2020-09-28",
+        "character_id": 27
+    },
+    {
+        "character_name": "Lisa",
+        "character_element": "Electro",
+        "region": "Mondstadt",
+        "rarity": 4,
+        "weapon_type": "Catalyst",
+        "birthday": "9.6.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Mysterious Bolognese",
+        "ascension_stat": "Elemental Mastery",
+        "release_version": "1.0",
+        "release_date": "2020-09-28",
+        "character_id": 28
+    },
+    {
+        "character_name": "Ningguang",
+        "character_element": "Geo",
+        "region": "Liyue",
+        "rarity": 4,
+        "weapon_type": "Catalyst",
+        "birthday": "26.8.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Qiankun Mora Meat",
+        "ascension_stat": "Geo DMG Bonus",
+        "release_version": "1.0",
+        "release_date": "2020-09-28",
+        "character_id": 29
+    },
+    {
+        "character_name": "Noelle",
+        "character_element": "Geo",
+        "region": "Mondstadt",
+        "rarity": 4,
+        "weapon_type": "Claymore",
+        "birthday": "21.3.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Lighter-Than-Air Pancake",
+        "ascension_stat": "DEF",
+        "release_version": "1.0",
+        "release_date": "2020-09-28",
+        "character_id": 30
+    },
+    {
+        "character_name": "Razor",
+        "character_element": "Electro",
+        "region": "Mondstadt",
+        "rarity": 4,
+        "weapon_type": "Claymore",
+        "birthday": "9.9.",
+        "model_type": "Medium Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Puppy-Paw Hash Brown",
+        "ascension_stat": "Physical DMG Bonus",
+        "release_version": "1.0",
+        "release_date": "2020-09-28",
+        "character_id": 31
+    },
+    {
+        "character_name": "Sucrose",
+        "character_element": "Anemo",
+        "region": "Mondstadt",
+        "rarity": 4,
+        "weapon_type": "Catalyst",
+        "birthday": "26.11.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [
+            {
+                "artifact_name": "Viridescent Venerer",
+                "domain_name": "Valley of Remembrance",
+                "domain_region": "Mondstadt",
+                "artifact_id": 3
+            }
+        ],
+        "special_dish": "Nutritious Meal (V. 593)",
+        "ascension_stat": "Anemo DMG Bonus",
+        "release_version": "1.0",
+        "release_date": "2020-09-28",
+        "character_id": 32
+    },
+    {
+        "character_name": "Xiangling",
+        "character_element": "Pyro",
+        "region": "Liyue",
+        "rarity": 4,
+        "weapon_type": "Polearm",
+        "birthday": "2.11.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [
+            {
+                "artifact_name": "Emblem of Severed Fate",
+                "domain_name": "Momiji-Dyed Court",
+                "domain_region": "Inazuma",
+                "artifact_id": 19
+            }
+        ],
+        "special_dish": "Wanmin Restaurant's Boiled Fish",
+        "ascension_stat": "Elemental Mastery",
+        "release_version": "1.0",
+        "release_date": "2020-09-28",
+        "character_id": 33
+    },
+    {
+        "character_name": "Xingqiu",
+        "character_element": "Hydro",
+        "region": "Liyue",
+        "rarity": 4,
+        "weapon_type": "Sword",
+        "birthday": "9.10.",
+        "model_type": "Medium Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [
+            {
+                "artifact_name": "Emblem of Severed Fate",
+                "domain_name": "Momiji-Dyed Court",
+                "domain_region": "Inazuma",
+                "artifact_id": 19
+            }
+        ],
+        "special_dish": "All-Delicacy Parcels",
+        "ascension_stat": "ATK",
+        "release_version": "1.0",
+        "release_date": "2020-09-28",
+        "character_id": 34
+    },
+    {
+        "character_name": "Tartaglia",
+        "character_element": "Hydro",
+        "region": "Snezhnaya",
+        "rarity": 5,
+        "weapon_type": "Bow",
+        "birthday": "20.7.",
+        "model_type": "Tall Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "A Prize Catch",
+        "ascension_stat": "Hydro DMG Bonus",
+        "release_version": "1.1",
+        "release_date": "2020-11-11",
+        "character_id": 35
+    },
+    {
+        "character_name": "Zhongli",
+        "character_element": "Geo",
+        "region": "Liyue",
+        "rarity": 5,
+        "weapon_type": "Polearm",
+        "birthday": "31.12.",
+        "model_type": "Tall Male",
+        "weapons": [
+            {
+                "weapon_name": "Vortex Vanquisher",
+                "weapon_type": "Polearm",
+                "rarity": 5,
+                "base_attack": 608,
+                "secondary_stat": "ATK 49.6%",
+                "material_name": "Aerosiderite",
+                "material_domain": "Hidden Palace of Lianshan Formula",
+                "material_region": "Liyue",
+                "weapon_id": 10
+            }
+        ],
+        "talents": [],
+        "artifacts": [
+            {
+                "artifact_name": "Tenacity of the Millelith",
+                "domain_name": "Ridge Watch",
+                "domain_region": "Liyue",
+                "artifact_id": 15
+            }
+        ],
+        "special_dish": "Slow-Cooked Bamboo Shoot Soup",
+        "ascension_stat": "Geo DMG Bonus",
+        "release_version": "1.1",
+        "release_date": "2020-11-11",
+        "character_id": 36
+    },
+    {
+        "character_name": "Diona",
+        "character_element": "Cryo",
+        "region": "Mondstadt",
+        "rarity": 4,
+        "weapon_type": "Bow",
+        "birthday": "18.1.",
+        "model_type": "Short Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Definitely Not Bar Food!",
+        "ascension_stat": "Cryo DMG Bonus",
+        "release_version": "1.1",
+        "release_date": "2020-11-11",
+        "character_id": 37
+    },
+    {
+        "character_name": "Xinyan",
+        "character_element": "Pyro",
+        "region": "Liyue",
+        "rarity": 4,
+        "weapon_type": "Claymore",
+        "birthday": "16.10.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Rockin' Riffin' Chicken!",
+        "ascension_stat": "ATK",
+        "release_version": "1.1",
+        "release_date": "2020-11-11",
+        "character_id": 38
+    },
+    {
+        "character_name": "Albedo",
+        "character_element": "Geo",
+        "region": "Mondstadt",
+        "rarity": 5,
+        "weapon_type": "Sword",
+        "birthday": "13.9.",
+        "model_type": "Tall Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Woodland Dream",
+        "ascension_stat": "Geo DMG Bonus",
+        "release_version": "1.2",
+        "release_date": "2020-12-23",
+        "character_id": 39
+    },
+    {
+        "character_name": "Ganyu",
+        "character_element": "Cryo",
+        "region": "Liyue",
+        "rarity": 5,
+        "weapon_type": "Bow",
+        "birthday": "2.12.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Prosperous Peace",
+        "ascension_stat": "Crit DMG",
+        "release_version": "1.2",
+        "release_date": "2020-12-23",
+        "character_id": 40
+    },
+    {
+        "character_name": "Xiao",
+        "character_element": "Anemo",
+        "region": "Liyue",
+        "rarity": 5,
+        "weapon_type": "Polearm",
+        "birthday": "17.4.",
+        "model_type": "Medium Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Sweet Dream",
+        "ascension_stat": "Crit Rate",
+        "release_version": "1.3",
+        "release_date": "2021-02-03",
+        "character_id": 41
+    },
+    {
+        "character_name": "Rosaria",
+        "character_element": "Cryo",
+        "region": "Mondstadt",
+        "rarity": 4,
+        "weapon_type": "Polearm",
+        "birthday": "24.1.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Dinner of Judgment",
+        "ascension_stat": "ATK",
+        "release_version": "1.4",
+        "release_date": "2021-03-17",
+        "character_id": 42
+    },
+    {
+        "character_name": "Eula",
+        "character_element": "Cryo",
+        "region": "Mondstadt",
+        "rarity": 5,
+        "weapon_type": "Claymore",
+        "birthday": "25.10.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Stormcrest Pie",
+        "ascension_stat": "Crit DMG",
+        "release_version": "1.5",
+        "release_date": "2021-04-28",
+        "character_id": 43
+    },
+    {
+        "character_name": "Yanfei",
+        "character_element": "Pyro",
+        "region": "Liyue",
+        "rarity": 4,
+        "weapon_type": "Catalyst",
+        "birthday": "28.7.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "My Way",
+        "ascension_stat": "Pyro DMG Bonus",
+        "release_version": "1.5",
+        "release_date": "2021-04-28",
+        "character_id": 44
+    },
+    {
+        "character_name": "Kaedehara Kazuha",
+        "character_element": "Anemo",
+        "region": "Inazuma",
+        "rarity": 5,
+        "weapon_type": "Sword",
+        "birthday": "29.10.",
+        "model_type": "Medium Male",
+        "weapons": [
+            {
+                "weapon_name": "Freedom-Sworn",
+                "weapon_type": "Sword",
+                "rarity": 5,
+                "base_attack": 608,
+                "secondary_stat": "Elemental Mastery 198",
+                "material_name": "Dandelion Gladiator",
+                "material_domain": "Cecilia Garden",
+                "material_region": "Mondstadt",
+                "weapon_id": 7
+            }
+        ],
+        "talents": [],
+        "artifacts": [
+            {
+                "artifact_name": "Viridescent Venerer",
+                "domain_name": "Valley of Remembrance",
+                "domain_region": "Mondstadt",
+                "artifact_id": 3
+            }
+        ],
+        "special_dish": "All-Weather Beauty",
+        "ascension_stat": "Elemental Mastery",
+        "release_version": "1.6",
+        "release_date": "2021-06-09",
+        "character_id": 45
+    },
+    {
+        "character_name": "Kamisato Ayaka",
+        "character_element": "Cryo",
+        "region": "Inazuma",
+        "rarity": 5,
+        "weapon_type": "Sword",
+        "birthday": "28.9.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Snow on the Hearth",
+        "ascension_stat": "Crit DMG",
+        "release_version": "2.0",
+        "release_date": "2021-07-21",
+        "character_id": 46
+    },
+    {
+        "character_name": "Sayu",
+        "character_element": "Anemo",
+        "region": "Inazuma",
+        "rarity": 4,
+        "weapon_type": "Claymore",
+        "birthday": "19.10.",
+        "model_type": "Short Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Dizziness-Be-Gone no Jutsu Version 2.0",
+        "ascension_stat": "Elemental Mastery",
+        "release_version": "2.0",
+        "release_date": "2021-07-21",
+        "character_id": 47
+    },
+    {
+        "character_name": "Aloy",
+        "character_element": "Cryo",
+        "region": null,
+        "rarity": 5,
+        "weapon_type": "Bow",
+        "birthday": null,
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": null,
+        "ascension_stat": null,
+        "release_version": "2.1",
+        "release_date": "2021-09-01",
+        "character_id": 48
+    },
+    {
+        "character_name": "Raiden Shogun",
+        "character_element": "Electro",
+        "region": "Inazuma",
+        "rarity": 5,
+        "weapon_type": "Polearm",
+        "birthday": "26.6.",
+        "model_type": "Tall Female",
+        "weapons": [
+            {
+                "weapon_name": "Engulfing Lightning",
+                "weapon_type": "Polearm",
+                "rarity": 5,
+                "base_attack": 608,
+                "secondary_stat": "Energy Recharge 55.1%",
+                "material_name": "Mask of the Kijin",
+                "material_domain": "Court of Flowing Sand",
+                "material_region": "Inazuma",
+                "weapon_id": 2
+            }
+        ],
+        "talents": [],
+        "artifacts": [
+            {
+                "artifact_name": "Emblem of Severed Fate",
+                "domain_name": "Momiji-Dyed Court",
+                "domain_region": "Inazuma",
+                "artifact_id": 19
+            },
+            {
+                "artifact_name": "Gilded Dreams",
+                "domain_name": "Spire of Solitary Enlightenment",
+                "domain_region": "Sumeru",
+                "artifact_id": 24
+            }
+        ],
+        "special_dish": null,
+        "ascension_stat": "Energy Recharge",
+        "release_version": "2.1",
+        "release_date": "2021-09-01",
+        "character_id": 49
+    },
+    {
+        "character_name": "Kujou Sara",
+        "character_element": "Electro",
+        "region": "Inazuma",
+        "rarity": 4,
+        "weapon_type": "Bow",
+        "birthday": "14.7.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Faith Eternal",
+        "ascension_stat": "ATK",
+        "release_version": "2.1",
+        "release_date": "2021-09-01",
+        "character_id": 50
+    },
+    {
+        "character_name": "Thoma",
+        "character_element": "Pyro",
+        "region": "Inazuma",
+        "rarity": 4,
+        "weapon_type": "Polearm",
+        "birthday": "9.1.",
+        "model_type": "Tall Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Warmth",
+        "ascension_stat": "ATK",
+        "release_version": "2.2",
+        "release_date": "2021-10-13",
+        "character_id": 51
+    },
+    {
+        "character_name": "Arataki Itto",
+        "character_element": "Geo",
+        "region": "Inazuma",
+        "rarity": 5,
+        "weapon_type": "Claymore",
+        "birthday": "1.6.",
+        "model_type": "Tall Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Way of the Strong",
+        "ascension_stat": "Crit Rate",
+        "release_version": "2.3",
+        "release_date": "2021-11-24",
+        "character_id": 52
+    },
+    {
+        "character_name": "Gorou",
+        "character_element": "Geo",
+        "region": "Inazuma",
+        "rarity": 4,
+        "weapon_type": "Bow",
+        "birthday": "18.5.",
+        "model_type": "Medium Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Victorious Legend",
+        "ascension_stat": "Geo DMG Bonus",
+        "release_version": "2.3",
+        "release_date": "2021-11-24",
+        "character_id": 53
+    },
+    {
+        "character_name": "Shenhe",
+        "character_element": "Cryo",
+        "region": "Liyue",
+        "rarity": 5,
+        "weapon_type": "Polearm",
+        "birthday": "10.3.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Heartstring Noodles",
+        "ascension_stat": "ATK",
+        "release_version": "2.4",
+        "release_date": "2022-01-05",
+        "character_id": 54
+    },
+    {
+        "character_name": "Yun Jin",
+        "character_element": "Geo",
+        "region": "Liyue",
+        "rarity": 4,
+        "weapon_type": "Polearm",
+        "birthday": "21.5.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Cloud-Shrouded Jade",
+        "ascension_stat": "Energy Recharge",
+        "release_version": "2.4",
+        "release_date": "2022-01-05",
+        "character_id": 55
+    },
+    {
+        "character_name": "Yae Miko",
+        "character_element": "Electro",
+        "region": "Inazuma",
+        "rarity": 5,
+        "weapon_type": "Catalyst",
+        "birthday": "27.6.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Fukuuchi Udon",
+        "ascension_stat": "Crit Rate",
+        "release_version": "2.5",
+        "release_date": "2022-02-16",
+        "character_id": 56
+    },
+    {
+        "character_name": "Kamisato Ayato",
+        "character_element": "Hydro",
+        "region": "Inazuma",
+        "rarity": 5,
+        "weapon_type": "Sword",
+        "birthday": "26.3.",
+        "model_type": "Tall Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Quiet Elegance",
+        "ascension_stat": "Crit DMG",
+        "release_version": "2.6",
+        "release_date": "2022-03-30",
+        "character_id": 57
+    },
+    {
+        "character_name": "Yelan",
+        "character_element": "Hydro",
+        "region": "Liyue",
+        "rarity": 5,
+        "weapon_type": "Bow",
+        "birthday": "20.4.",
+        "model_type": "Tall Female",
+        "weapons": [
+            {
+                "weapon_name": "Aqua Simulacra",
+                "weapon_type": "Bow",
+                "rarity": 5,
+                "base_attack": 542,
+                "secondary_stat": "CRIT DMG 88.2%",
+                "material_name": "Guyun",
+                "material_domain": "Hidden Palace of Lianshan Formula",
+                "material_region": "Liyue",
+                "weapon_id": 8
+            }
+        ],
+        "talents": [],
+        "artifacts": [
+            {
+                "artifact_name": "Emblem of Severed Fate",
+                "domain_name": "Momiji-Dyed Court",
+                "domain_region": "Inazuma",
+                "artifact_id": 19
+            }
+        ],
+        "special_dish": "Dew-Dipped Shrimp",
+        "ascension_stat": "Crit Rate",
+        "release_version": "2.7",
+        "release_date": "2022-05-31",
+        "character_id": 58
+    },
+    {
+        "character_name": "Kuki Shinobu",
+        "character_element": "Electro",
+        "region": "Inazuma",
+        "rarity": 4,
+        "weapon_type": "Sword",
+        "birthday": "27.7.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Omurice Waltz",
+        "ascension_stat": "HP",
+        "release_version": "2.7",
+        "release_date": "2022-05-31",
+        "character_id": 59
+    },
+    {
+        "character_name": "Shikanoin Heizou",
+        "character_element": "Anemo",
+        "region": "Inazuma",
+        "rarity": 4,
+        "weapon_type": "Catalyst",
+        "birthday": "24.7.",
+        "model_type": "Medium Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "The Only Truth",
+        "ascension_stat": "Anemo DMG Bonus",
+        "release_version": "2.8",
+        "release_date": "2022-07-13",
+        "character_id": 60
+    },
+    {
+        "character_name": "Tighnari",
+        "character_element": "Dendro",
+        "region": "Sumeru",
+        "rarity": 5,
+        "weapon_type": "Bow",
+        "birthday": "29.12.",
+        "model_type": "Medium Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Forest Watcher's Choice",
+        "ascension_stat": "Dendro DMG Bonus",
+        "release_version": "3.0",
+        "release_date": "2022-08-24",
+        "character_id": 61
+    },
+    {
+        "character_name": "Collei",
+        "character_element": "Dendro",
+        "region": "Sumeru",
+        "rarity": 4,
+        "weapon_type": "Bow",
+        "birthday": "8.5.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Yearning",
+        "ascension_stat": "ATK",
+        "release_version": "3.0",
+        "release_date": "2022-08-24",
+        "character_id": 62
+    },
+    {
+        "character_name": "Dori",
+        "character_element": "Electro",
+        "region": "Sumeru",
+        "rarity": 4,
+        "weapon_type": "Claymore",
+        "birthday": "21.12.",
+        "model_type": "Short Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Show Me the Mora",
+        "ascension_stat": "HP",
+        "release_version": "3.0",
+        "release_date": "2022-08-24",
+        "character_id": 63
+    },
+    {
+        "character_name": "Cyno",
+        "character_element": "Electro",
+        "region": "Sumeru",
+        "rarity": 5,
+        "weapon_type": "Polearm",
+        "birthday": "23.6.",
+        "model_type": "Medium Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Duel Soul",
+        "ascension_stat": "Crit DMG",
+        "release_version": "3.1",
+        "release_date": "2022-09-28",
+        "character_id": 64
+    },
+    {
+        "character_name": "Nilou",
+        "character_element": "Hydro",
+        "region": "Sumeru",
+        "rarity": 5,
+        "weapon_type": "Sword",
+        "birthday": "3.12.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Swirling Steps",
+        "ascension_stat": "HP",
+        "release_version": "3.1",
+        "release_date": "2022-09-28",
+        "character_id": 65
+    },
+    {
+        "character_name": "Candace",
+        "character_element": "Hydro",
+        "region": "Sumeru",
+        "rarity": 4,
+        "weapon_type": "Polearm",
+        "birthday": "3.5.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Utmost Care",
+        "ascension_stat": "HP",
+        "release_version": "3.1",
+        "release_date": "2022-09-28",
+        "character_id": 66
+    },
+    {
+        "character_name": "Nahida",
+        "character_element": "Dendro",
+        "region": "Sumeru",
+        "rarity": 5,
+        "weapon_type": "Catalyst",
+        "birthday": "27.10.",
+        "model_type": "Short Female",
+        "weapons": [
+            {
+                "weapon_name": "A Thousand Floating Dreams",
+                "weapon_type": "Catalyst",
+                "rarity": 5,
+                "base_attack": 542,
+                "secondary_stat": "Elemental Mastery 265",
+                "material_name": "Oasis Garden",
+                "material_domain": "Tower of Abject Pride",
+                "material_region": "Sumeru",
+                "weapon_id": 3
+            }
+        ],
+        "talents": [],
+        "artifacts": [
+            {
+                "artifact_name": "Deepwood Memories",
+                "domain_name": "Spire of Solitary Enlightenment",
+                "domain_region": "Sumeru",
+                "artifact_id": 23
+            },
+            {
+                "artifact_name": "Gilded Dreams",
+                "domain_name": "Spire of Solitary Enlightenment",
+                "domain_region": "Sumeru",
+                "artifact_id": 24
+            }
+        ],
+        "special_dish": "Halvamazd",
+        "ascension_stat": "Elemental Mastery",
+        "release_version": "3.2",
+        "release_date": "2022-11-02",
+        "character_id": 67
+    },
+    {
+        "character_name": "Layla",
+        "character_element": "Cryo",
+        "region": "Sumeru",
+        "rarity": 4,
+        "weapon_type": "Sword",
+        "birthday": "19.12.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Extravagant Slumber",
+        "ascension_stat": "HP",
+        "release_version": "3.2",
+        "release_date": "2022-11-02",
+        "character_id": 68
+    },
+    {
+        "character_name": "Wanderer",
+        "character_element": "Anemo",
+        "region": "Sumeru",
+        "rarity": 5,
+        "weapon_type": "Catalyst",
+        "birthday": "3.1.",
+        "model_type": "Medium Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Shimi Chazuke",
+        "ascension_stat": "Crit Rate",
+        "release_version": "3.3",
+        "release_date": "2022-12-07",
+        "character_id": 69
+    },
+    {
+        "character_name": "Faruzan",
+        "character_element": "Anemo",
+        "region": "Sumeru",
+        "rarity": 4,
+        "weapon_type": "Bow",
+        "birthday": "20.8.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Traditionally-Made Charcoal-Baked Ajilenakh Cake",
+        "ascension_stat": "ATK",
+        "release_version": "3.3",
+        "release_date": "2022-12-07",
+        "character_id": 70
+    },
+    {
+        "character_name": "Alhaitham",
+        "character_element": "Dendro",
+        "region": "Sumeru",
+        "rarity": 5,
+        "weapon_type": "Sword",
+        "birthday": "11.2.",
+        "model_type": "Tall Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Ideal Circumstance",
+        "ascension_stat": "Dendro DMG Bonus",
+        "release_version": "3.4",
+        "release_date": "2023-01-18",
+        "character_id": 71
+    },
+    {
+        "character_name": "Yaoyao",
+        "character_element": "Dendro",
+        "region": "Liyue",
+        "rarity": 4,
+        "weapon_type": "Polearm",
+        "birthday": "6.3.",
+        "model_type": "Short Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Qingce Household Dish",
+        "ascension_stat": "HP",
+        "release_version": "3.4",
+        "release_date": "2023-01-18",
+        "character_id": 72
+    },
+    {
+        "character_name": "Dehya",
+        "character_element": "Pyro",
+        "region": "Sumeru",
+        "rarity": 5,
+        "weapon_type": "Claymore",
+        "birthday": "7.4.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Goldflame Tajine",
+        "ascension_stat": "HP",
+        "release_version": "3.5",
+        "release_date": "2023-03-01",
+        "character_id": 73
+    },
+    {
+        "character_name": "Mika",
+        "character_element": "Cryo",
+        "region": "Mondstadt",
+        "rarity": 4,
+        "weapon_type": "Polearm",
+        "birthday": "11.8.",
+        "model_type": "Short Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Surveyor's Breakfast Sandwich",
+        "ascension_stat": "HP",
+        "release_version": "3.5",
+        "release_date": "2023-03-01",
+        "character_id": 74
+    },
+    {
+        "character_name": "Baizhu",
+        "character_element": "Dendro",
+        "region": "Liyue",
+        "rarity": 5,
+        "weapon_type": "Catalyst",
+        "birthday": "25.4.",
+        "model_type": "Tall Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Heat-Quelling Soup",
+        "ascension_stat": "HP",
+        "release_version": "3.6",
+        "release_date": "2023-04-12",
+        "character_id": 75
+    },
+    {
+        "character_name": "Kaveh",
+        "character_element": "Dendro",
+        "region": "Sumeru",
+        "rarity": 4,
+        "weapon_type": "Claymore",
+        "birthday": "9.7.",
+        "model_type": "Medium Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "The Endeavor",
+        "ascension_stat": "Elemental Mastery",
+        "release_version": "3.6",
+        "release_date": "2023-04-12",
+        "character_id": 76
+    },
+    {
+        "character_name": "Kirara",
+        "character_element": "Dendro",
+        "region": "Inazuma",
+        "rarity": 4,
+        "weapon_type": "Sword",
+        "birthday": "22.1.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Energizing Bento",
+        "ascension_stat": "HP",
+        "release_version": "3.7",
+        "release_date": "2023-05-24",
+        "character_id": 77
+    },
+    {
+        "character_name": "Lyney",
+        "character_element": "Pyro",
+        "region": "Fontaine",
+        "rarity": 5,
+        "weapon_type": "Bow",
+        "birthday": "2.2.",
+        "model_type": "Medium Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Cubic Tricks",
+        "ascension_stat": "Crit Rate",
+        "release_version": "4.0",
+        "release_date": "2023-08-16",
+        "character_id": 78
+    },
+    {
+        "character_name": "Freminet",
+        "character_element": "Cryo",
+        "region": "Fontaine",
+        "rarity": 4,
+        "weapon_type": "Claymore",
+        "birthday": "24.9.",
+        "model_type": "Medium Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Seabird's Sojourn",
+        "ascension_stat": "ATK",
+        "release_version": "4.0",
+        "release_date": "2023-08-16",
+        "character_id": 79
+    },
+    {
+        "character_name": "Lynette",
+        "character_element": "Anemo",
+        "region": "Fontaine",
+        "rarity": 4,
+        "weapon_type": "Sword",
+        "birthday": "2.2.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "A Leisurely Sip",
+        "ascension_stat": "Anemo DMG Bonus",
+        "release_version": "4.0",
+        "release_date": "2023-08-16",
+        "character_id": 80
+    },
+    {
+        "character_name": "Wriothesley",
+        "character_element": "Cryo",
+        "region": "Fontaine",
+        "rarity": 5,
+        "weapon_type": "Catalyst",
+        "birthday": "23.11.",
+        "model_type": "Tall Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Secret Sauce BBQ Ribs",
+        "ascension_stat": "Crit DMG",
+        "release_version": "4.1",
+        "release_date": "2023-09-27",
+        "character_id": 81
+    },
+    {
+        "character_name": "Charlotte",
+        "character_element": "Cryo",
+        "region": "Fontaine",
+        "rarity": 4,
+        "weapon_type": "Catalyst",
+        "birthday": "10.4.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Exclusive Scoop: Gourmet Column",
+        "ascension_stat": "ATK",
+        "release_version": "4.2",
+        "release_date": "2023-11-08",
+        "character_id": 82
+    },
+    {
+        "character_name": "Navia",
+        "character_element": "Geo",
+        "region": "Fontaine",
+        "rarity": 5,
+        "weapon_type": "Claymore",
+        "birthday": "16.8.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Pick What You Like!",
+        "ascension_stat": "Crit DMG",
+        "release_version": "4.3",
+        "release_date": "2023-12-20",
+        "character_id": 83
+    },
+    {
+        "character_name": "Chevreuse",
+        "character_element": "Pyro",
+        "region": "Fontaine",
+        "rarity": 4,
+        "weapon_type": "Polearm",
+        "birthday": "10.1.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Sin: The Kind That Doesn't Need to Be Dealt With",
+        "ascension_stat": "HP",
+        "release_version": "4.3",
+        "release_date": "2023-12-20",
+        "character_id": 84
+    },
+    {
+        "character_name": "Xianyun",
+        "character_element": "Anemo",
+        "region": "Liyue",
+        "rarity": 5,
+        "weapon_type": "Catalyst",
+        "birthday": "11.4.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Encompassing Gladness",
+        "ascension_stat": "ATK",
+        "release_version": "4.4",
+        "release_date": "2024-01-31",
+        "character_id": 85
+    },
+    {
+        "character_name": "Gaming",
+        "character_element": "Pyro",
+        "region": "Liyue",
+        "rarity": 4,
+        "weapon_type": "Claymore",
+        "birthday": "22.12.",
+        "model_type": "Medium Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Yummy Yum Cha",
+        "ascension_stat": "ATK",
+        "release_version": "4.4",
+        "release_date": "2024-01-31",
+        "character_id": 86
+    },
+    {
+        "character_name": "Arlecchino",
+        "character_element": "Pyro",
+        "region": "Snezhnaya",
+        "rarity": 5,
+        "weapon_type": "Polearm",
+        "birthday": "22.8.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Hearthfire's Trail",
+        "ascension_stat": "Crit DMG",
+        "release_version": "4.6",
+        "release_date": "2024-04-24",
+        "character_id": 87
+    },
+    {
+        "character_name": "Clorinde",
+        "character_element": "Electro",
+        "region": "Fontaine",
+        "rarity": 5,
+        "weapon_type": "Sword",
+        "birthday": "20.9.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Tagged and Bagged",
+        "ascension_stat": "Crit Rate",
+        "release_version": "4.7",
+        "release_date": "2024-06-05",
+        "character_id": 88
+    },
+    {
+        "character_name": "Sigewinne",
+        "character_element": "Hydro",
+        "region": "Fontaine",
+        "rarity": 5,
+        "weapon_type": "Bow",
+        "birthday": "30.3.",
+        "model_type": "Short Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Well-Balanced Meal",
+        "ascension_stat": "HP",
+        "release_version": "4.7",
+        "release_date": "2024-06-05",
+        "character_id": 89
+    },
+    {
+        "character_name": "Sethos",
+        "character_element": "Electro",
+        "region": "Sumeru",
+        "rarity": 4,
+        "weapon_type": "Bow",
+        "birthday": "31.5.",
+        "model_type": "Medium Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Super-Dee-Duper Delicious Meat Roll",
+        "ascension_stat": "Elemental Mastery",
+        "release_version": "4.7",
+        "release_date": "2024-06-05",
+        "character_id": 90
+    },
+    {
+        "character_name": "Emilie",
+        "character_element": "Dendro",
+        "region": "Fontaine",
+        "rarity": 5,
+        "weapon_type": "Polearm",
+        "birthday": "22.9.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "A Fragrant Feast",
+        "ascension_stat": "Crit DMG",
+        "release_version": "4.8",
+        "release_date": "2024-07-17",
+        "character_id": 91
+    },
+    {
+        "character_name": "Kinich",
+        "character_element": "Dendro",
+        "region": "Natlan",
+        "rarity": 5,
+        "weapon_type": "Claymore",
+        "birthday": "11.11.",
+        "model_type": "Tall Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Saurian Hunter's Reward",
+        "ascension_stat": "Crit DMG",
+        "release_version": "5.0",
+        "release_date": "2024-08-28",
+        "character_id": 92
+    },
+    {
+        "character_name": "Mualani",
+        "character_element": "Hydro",
+        "region": "Natlan",
+        "rarity": 5,
+        "weapon_type": "Catalyst",
+        "birthday": "12.8.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Pass the Luck",
+        "ascension_stat": "Crit Rate",
+        "release_version": "5.0",
+        "release_date": "2024-08-28",
+        "character_id": 93
+    },
+    {
+        "character_name": "Kachina",
+        "character_element": "Geo",
+        "region": "Natlan",
+        "rarity": 4,
+        "weapon_type": "Polearm",
+        "birthday": "22.4.",
+        "model_type": "Short Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Impeccably Organized",
+        "ascension_stat": "Geo DMG Bonus",
+        "release_version": "5.0",
+        "release_date": "2024-08-28",
+        "character_id": 94
+    },
+    {
+        "character_name": "Xilonen",
+        "character_element": "Geo",
+        "region": "Natlan",
+        "rarity": 5,
+        "weapon_type": "Sword",
+        "birthday": "13.3.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Fruit-Flavored Milk Candies",
+        "ascension_stat": "DEF",
+        "release_version": "5.1",
+        "release_date": "2024-10-09",
+        "character_id": 95
+    },
+    {
+        "character_name": "Chasca",
+        "character_element": "Anemo",
+        "region": "Natlan",
+        "rarity": 5,
+        "weapon_type": "Bow",
+        "birthday": "10.12.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Moment of Respite",
+        "ascension_stat": "Crit Rate",
+        "release_version": "5.2",
+        "release_date": "2024-11-20",
+        "character_id": 96
+    },
+    {
+        "character_name": "Ororon",
+        "character_element": "Electro",
+        "region": "Natlan",
+        "rarity": 4,
+        "weapon_type": "Bow",
+        "birthday": "14.10.",
+        "model_type": "Tall Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Honey-Glazed Ceviche",
+        "ascension_stat": "ATK",
+        "release_version": "5.2",
+        "release_date": "2024-11-20",
+        "character_id": 97
+    },
+    {
+        "character_name": "Citlali",
+        "character_element": "Cryo",
+        "region": "Natlan",
+        "rarity": 5,
+        "weapon_type": "Catalyst",
+        "birthday": "20.1.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Secret Art",
+        "ascension_stat": "Elemental Mastery",
+        "release_version": "5.3",
+        "release_date": "2025-01-01",
+        "character_id": 98
+    },
+    {
+        "character_name": "Mavuika",
+        "character_element": "Pyro",
+        "region": "Natlan",
+        "rarity": 5,
+        "weapon_type": "Claymore",
+        "birthday": "28.8.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Grilled in Glaze",
+        "ascension_stat": "Crit DMG",
+        "release_version": "5.3",
+        "release_date": "2025-01-01",
+        "character_id": 99
+    },
+    {
+        "character_name": "Lan Yan",
+        "character_element": "Anemo",
+        "region": "Liyue",
+        "rarity": 4,
+        "weapon_type": "Catalyst",
+        "birthday": "6.1.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Jade Veiled Chicken",
+        "ascension_stat": "ATK",
+        "release_version": "5.3",
+        "release_date": "2025-01-01",
+        "character_id": 100
+    },
+    {
+        "character_name": "Yumemizuki Mizuki",
+        "character_element": "Anemo",
+        "region": "Inazuma",
+        "rarity": 5,
+        "weapon_type": "Catalyst",
+        "birthday": "16.3.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Dreams of Healing",
+        "ascension_stat": "Elemental Mastery",
+        "release_version": "5.4",
+        "release_date": "2025-02-12",
+        "character_id": 101
+    },
+    {
+        "character_name": "Varesa",
+        "character_element": "Electro",
+        "region": "Natlan",
+        "rarity": 5,
+        "weapon_type": "Catalyst",
+        "birthday": "10.1.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Gold-Standard Healthy Meal",
+        "ascension_stat": "Crit Rate",
+        "release_version": "5.5",
+        "release_date": "2025-03-26",
+        "character_id": 102
+    },
+    {
+        "character_name": "Iansan",
+        "character_element": "Electro",
+        "region": "Natlan",
+        "rarity": 4,
+        "weapon_type": "Polearm",
+        "birthday": "8.8.",
+        "model_type": "Short Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Power Shake",
+        "ascension_stat": "ATK",
+        "release_version": "5.5",
+        "release_date": "2025-03-26",
+        "character_id": 103
+    },
+    {
+        "character_name": "Escoffier",
+        "character_element": "Cryo",
+        "region": "Fontaine",
+        "rarity": 5,
+        "weapon_type": "Polearm",
+        "birthday": "8.6.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Lullaby of the Sea",
+        "ascension_stat": "Crit Rate",
+        "release_version": "5.6",
+        "release_date": "2025-05-07",
+        "character_id": 104
+    },
+    {
+        "character_name": "Ifa",
+        "character_element": "Anemo",
+        "region": "Natlan",
+        "rarity": 4,
+        "weapon_type": "Catalyst",
+        "birthday": "23.3.",
+        "model_type": "Tall Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Emotion Support",
+        "ascension_stat": "Elemental Mastery",
+        "release_version": "5.6",
+        "release_date": "2025-05-07",
+        "character_id": 105
+    },
+    {
+        "character_name": "Skirk",
+        "character_element": "Cryo",
+        "region": "Other",
+        "rarity": 5,
+        "weapon_type": "Sword",
+        "birthday": "5.11.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Abyssal Bounty",
+        "ascension_stat": "Crit DMG",
+        "release_version": "5.7",
+        "release_date": "2025-06-18",
+        "character_id": 106
+    },
+    {
+        "character_name": "Dahlia",
+        "character_element": "Hydro",
+        "region": "Mondstadt",
+        "rarity": 4,
+        "weapon_type": "Sword",
+        "birthday": "25.5.",
+        "model_type": "Medium Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Sombre Silver",
+        "ascension_stat": "HP",
+        "release_version": "5.7",
+        "release_date": "2025-06-18",
+        "character_id": 107
+    },
+    {
+        "character_name": "Ineffa",
+        "character_element": "Electro",
+        "region": "Nod-Krai",
+        "rarity": 5,
+        "weapon_type": "Polearm",
+        "birthday": "2.4.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Thunderclap Blitz",
+        "ascension_stat": "Crit Rate",
+        "release_version": "5.8",
+        "release_date": "2025-07-30",
+        "character_id": 108
+    },
+    {
+        "character_name": "Flins",
+        "character_element": "Electro",
+        "region": "Nod-Krai",
+        "rarity": 5,
+        "weapon_type": "Polearm",
+        "birthday": "31.10.",
+        "model_type": "Tall Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Long Night Alight",
+        "ascension_stat": "Crit DMG",
+        "release_version": "Luna I",
+        "release_date": "2025-09-10",
+        "character_id": 109
+    },
+    {
+        "character_name": "Lauma",
+        "character_element": "Dendro",
+        "region": "Nod-Krai",
+        "rarity": 5,
+        "weapon_type": "Catalyst",
+        "birthday": "1.3.",
+        "model_type": "Tall Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Whisper in the Woods",
+        "ascension_stat": "Elemental Mastery",
+        "release_version": "Luna I",
+        "release_date": "2025-09-10",
+        "character_id": 110
+    },
+    {
+        "character_name": "Aino",
+        "character_element": "Hydro",
+        "region": "Nod-Krai",
+        "rarity": 4,
+        "weapon_type": "Claymore",
+        "birthday": "21.9.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Clink-Clank Confectionary Cup",
+        "ascension_stat": "Elemental Mastery",
+        "release_version": "Luna I",
+        "release_date": "2025-09-10",
+        "character_id": 111
+    },
+    {
+        "character_name": "Nefer",
+        "character_element": "Dendro",
+        "region": "Nod-Krai",
+        "rarity": 5,
+        "weapon_type": "Catalyst",
+        "birthday": "9.5.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Secrets Exchanged",
+        "ascension_stat": "Crit DMG",
+        "release_version": "Luna II",
+        "release_date": "2025-10-22",
+        "character_id": 112
+    },
+    {
+        "character_name": "Jahoda",
+        "character_element": "Anemo",
+        "region": "Nod-Krai",
+        "rarity": 4,
+        "weapon_type": "Bow",
+        "birthday": "5.1.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "After-Class Practice",
+        "ascension_stat": "Healing Bonus",
+        "release_version": "Luna III",
+        "release_date": "2025-12-03",
+        "character_id": 113
+    },
+    {
+        "character_name": "Illuga",
+        "character_element": "Geo",
+        "region": "Nod-Krai",
+        "rarity": 4,
+        "weapon_type": "Polearm",
+        "birthday": "23.12.",
+        "model_type": "Medium Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Nightwatch Soup",
+        "ascension_stat": "Elemental Mastery",
+        "release_version": "Luna IV",
+        "release_date": "2026-01-14",
+        "character_id": 114
+    },
+    {
+        "character_name": "Varka",
+        "character_element": "Anemo",
+        "region": "Mondstadt",
+        "rarity": 5,
+        "weapon_type": "Claymore",
+        "birthday": "17.2.",
+        "model_type": "Tall Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Hearty Indulgence",
+        "ascension_stat": "Crit DMG",
+        "release_version": "Luna V",
+        "release_date": "2026-02-25",
+        "character_id": 115
+    },
+    {
+        "character_name": "Lohen",
+        "character_element": "Cryo",
+        "region": "Mondstadt",
+        "rarity": 5,
+        "weapon_type": "Polearm",
+        "birthday": "3.4.",
+        "model_type": "Medium Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Boredom-Busting Bubblegum",
+        "ascension_stat": "Crit DMG",
+        "release_version": "Luna VII",
+        "release_date": "2026-05-20",
+        "character_id": 116
+    },
+    {
+        "character_name": "Prune",
+        "character_element": "Anemo",
+        "region": "Mondstadt",
+        "rarity": 4,
+        "weapon_type": "Catalyst",
+        "birthday": "20.11.",
+        "model_type": "Short Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Spinning Special",
+        "ascension_stat": "ATK",
+        "release_version": "Luna VII",
+        "release_date": "2026-05-20",
+        "character_id": 117
+    },
+    {
+        "character_name": "Odette",
+        "character_element": "Cryo",
+        "region": "Snezhnaya",
+        "rarity": 5,
+        "weapon_type": "Sword",
+        "birthday": "20.2.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Lakeside Snow Swan",
+        "ascension_stat": "Crit DMG",
+        "release_version": "7.0",
+        "release_date": "2026-08-12",
+        "character_id": 118
+    },
+    {
+        "character_name": "Alyosha",
+        "character_element": "Electro",
+        "region": "Snezhnaya",
+        "rarity": 4,
+        "weapon_type": "Polearm",
+        "birthday": "9.2.",
+        "model_type": "Medium Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "The Bullseye Roast",
+        "ascension_stat": "Energy Recharge",
+        "release_version": "7.0",
+        "release_date": "2026-08-12",
+        "character_id": 119
+    },
+    {
+        "character_name": "Vodyanitsa",
+        "character_element": "Hydro",
+        "region": "Snezhnaya",
+        "rarity": 5,
+        "weapon_type": "Catalyst",
+        "birthday": "29.3.",
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Iridescent Aria",
+        "ascension_stat": "HP",
+        "release_version": "7.1",
+        "release_date": "2026-09-23",
+        "character_id": 120
+    },
+    {
+        "character_name": "Mitya",
+        "character_element": "Electro",
+        "region": "Snezhnaya",
+        "rarity": 5,
+        "weapon_type": "Catalyst",
+        "birthday": "8.2.",
+        "model_type": "Medium Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Energy-Replenishing Meal",
+        "ascension_stat": "Crit DMG",
+        "release_version": "7.2",
+        "release_date": "2026-11-04",
+        "character_id": 121
+    },
+    {
+        "character_name": "Valeriy",
+        "character_element": "Electro",
+        "region": "Snezhnaya",
+        "rarity": 4,
+        "weapon_type": "Sword",
+        "birthday": "24.3.",
+        "model_type": "Tall Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": "Emergency Barricade",
+        "ascension_stat": "ATK",
+        "release_version": "7.2",
+        "release_date": "2026-11-04",
+        "character_id": 122
+    },
+    {
+        "character_name": "Aether",
+        "character_element": null,
+        "region": null,
+        "rarity": 5,
+        "weapon_type": "Sword",
+        "birthday": null,
+        "model_type": "Medium Male",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": null,
+        "ascension_stat": null,
+        "release_version": "1.0",
+        "release_date": "2020-09-28",
+        "character_id": 123
+    },
+    {
+        "character_name": "Lumine",
+        "character_element": null,
+        "region": null,
+        "rarity": 5,
+        "weapon_type": "Sword",
+        "birthday": null,
+        "model_type": "Medium Female",
+        "weapons": [],
+        "talents": [],
+        "artifacts": [],
+        "special_dish": null,
+        "ascension_stat": null,
+        "release_version": "1.0",
+        "release_date": "2020-09-28",
+        "character_id": 124
     }
 ]

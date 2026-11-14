@@ -1,46 +1,125 @@
-character_id,character_name,rarity,character_element,weapon_type,region,model_type,birthday,special_dish,ascension_stat,release_version,release_date,talent_id,talent_name,talent_type
-1,Hu Tao,5,Pyro,Polearm,Liyue,Medium Female,15.7.,Ghostly March,Crit DMG,1.3,3/2/2021,1,Secret Spear of Wangsheng,Normal Attack
-1,Hu Tao,5,Pyro,Polearm,Liyue,Medium Female,15.7.,Ghostly March,Crit DMG,1.3,3/2/2021,2,Guide to Afterlife,Elemental Skill
-1,Hu Tao,5,Pyro,Polearm,Liyue,Medium Female,15.7.,Ghostly March,Crit DMG,1.3,3/2/2021,3,Spirit Soother,Elemental Burst
-2,Zibai,5,Geo,Sword,Liyue,Tall Female,15.5.,Flavor of Spring,Crit DMG,Luna IV,2/3/2026,31,Tri-Sphere Eminence,Elemental Burst
-2,Zibai,5,Geo,Sword,Liyue,Tall Female,15.5.,Flavor of Spring,Crit DMG,Luna IV,2/3/2026,32,Heaven and Earth Made Manifest,Elemental Skill
-2,Zibai,5,Geo,Sword,Liyue,Tall Female,15.5.,Flavor of Spring,Crit DMG,Luna IV,2/3/2026,33,Golden Blade's Petaled Touch,Normal Attack
-3,Columbina,5,Hydro,Catalyst,Nod-Krai,Medium Female,14.1.,Moonlit Mirage,Crit Rate,Luna IV,1/14/2026,4,Moonlit Melancholy,Elemental Burst
-3,Columbina,5,Hydro,Catalyst,Nod-Krai,Medium Female,14.1.,Moonlit Mirage,Crit Rate,Luna IV,1/14/2026,5,Eternal Tides,Elemental Skill
-3,Columbina,5,Hydro,Catalyst,Nod-Krai,Medium Female,14.1.,Moonlit Mirage,Crit Rate,Luna IV,1/14/2026,6,Moondew Cascade,Normal Attack
-4,Furina,5,Hydro,Sword,Fontaine,Medium Female,13.10.,Pour la Justice,Crit Rate,4.2,11/8/2023,7,Let the People Rejoice,Elemental Burst
-4,Furina,5,Hydro,Sword,Fontaine,Medium Female,13.10.,Pour la Justice,Crit Rate,4.2,11/8/2023,8,Salon Solitaire,Elemental Skill
-4,Furina,5,Hydro,Sword,Fontaine,Medium Female,13.10.,Pour la Justice,Crit Rate,4.2,11/8/2023,9,Soloist's Solicitation,Normal Attack
-5,Sandrone,5,Cryo,Claymore,Snezhnaya,Medium Female,13.1.,Tea Party Polyphony,Crit Rate,Luna VIII,7/1/2026,28,Formule Phenomenale: Q.E.D.,Elemental Burst
-5,Sandrone,5,Cryo,Claymore,Snezhnaya,Medium Female,13.1.,Tea Party Polyphony,Crit Rate,Luna VIII,7/1/2026,29,Formule Phenomenale: Differential Analysis,Elemental Skill
-5,Sandrone,5,Cryo,Claymore,Snezhnaya,Medium Female,13.1.,Tea Party Polyphony,Crit Rate,Luna VIII,7/1/2026,30,Formule Phenomenale: Self-Evident Proposition,Normal Attack
-6,Yoimiya,5,Pyro,Bow,Inazuma,Medium Female,21.6.,Summer Festival Fish,Crit Rate,2,8/10/2021,10,Ryuukin Saxifrage,Elemental Burst
-6,Yoimiya,5,Pyro,Bow,Inazuma,Medium Female,21.6.,Summer Festival Fish,Crit Rate,2,8/10/2021,11,Niwabi Fire-Dance,Elemental Skill
-6,Yoimiya,5,Pyro,Bow,Inazuma,Medium Female,21.6.,Summer Festival Fish,Crit Rate,2,8/10/2021,12,Firework Flare-Up,Normal Attack
-7,Sangonomiya Kokomi,5,Hydro,Catalyst,Inazuma,Medium Female,22.2.,A Stunning Stratagem,Hydro DMG Bonus,2.1,9/21/2021,13,Nereid's Ascension,Elemental Burst
-7,Sangonomiya Kokomi,5,Hydro,Catalyst,Inazuma,Medium Female,22.2.,A Stunning Stratagem,Hydro DMG Bonus,2.1,9/21/2021,14,Kurage's Oath,Elemental Skill
-7,Sangonomiya Kokomi,5,Hydro,Catalyst,Inazuma,Medium Female,22.2.,A Stunning Stratagem,Hydro DMG Bonus,2.1,9/21/2021,15,The Shape of Water,Normal Attack
-8,Linnea,5,Geo,Bow,Nod-Krai,Medium Female,23.5.,Iridescence Under the Tree's Shade,Crit Rate,Luna VI,4/8/2026,37,Memo: Survival Guide in Extreme Conditions,Elemental Burst
-8,Linnea,5,Geo,Bow,Nod-Krai,Medium Female,23.5.,Iridescence Under the Tree's Shade,Crit Rate,Luna VI,4/8/2026,38,Countermeasure: Lumi's Battle Cry!,Elemental Skill
-8,Linnea,5,Geo,Bow,Nod-Krai,Medium Female,23.5.,Iridescence Under the Tree's Shade,Crit Rate,Luna VI,4/8/2026,39,Capture Protocol,Normal Attack
-9,Vesna,5,Anemo,Sword,Snezhnaya,,4.2.,Hoarfrost Soup,Crit DMG,7.1,9/23/2026,34,For the Tsaritsa!,Elemental Burst
-9,Vesna,5,Anemo,Sword,Snezhnaya,,4.2.,Hoarfrost Soup,Crit DMG,7.1,9/23/2026,35,The Art of Victory,Elemental Skill
-9,Vesna,5,Anemo,Sword,Snezhnaya,,4.2.,Hoarfrost Soup,Crit DMG,7.1,9/23/2026,36,Vila Blade Dance,Normal Attack
-10,Klee,5,Pyro,Catalyst,Mondstadt,Short Female,27.7.,Fish-Flavored Toast,Pyro DMG Bonus,1,10/20/2020,16,Sparks 'n' Splash,Elemental Burst
-10,Klee,5,Pyro,Catalyst,Mondstadt,Short Female,27.7.,Fish-Flavored Toast,Pyro DMG Bonus,1,10/20/2020,17,Jumpy Dumpty,Elemental Skill
-10,Klee,5,Pyro,Catalyst,Mondstadt,Short Female,27.7.,Fish-Flavored Toast,Pyro DMG Bonus,1,10/20/2020,18,Kaboom!,Normal Attack
-11,Nicole,5,Pyro,Catalyst,,Tall Female,29.9.,Gilded Chest,ATK%,Luna VII,5/20/2026,40,Revelation: Ladder of Divine Ascent,Elemental Burst
-11,Nicole,5,Pyro,Catalyst,,Tall Female,29.9.,Gilded Chest,ATK%,Luna VII,5/20/2026,41,Revelation: Uncreated Light,Elemental Skill
-11,Nicole,5,Pyro,Catalyst,,Tall Female,29.9.,Gilded Chest,ATK%,Luna VII,5/20/2026,42,Allegoria,Normal Attack
-12,Durin,5,Pyro,Sword,Mondstadt,Medium Male,14.3.,Apple Stew (Trial Version),Crit DMG,Luna III,12/3/2025,43,Principle of Purity: As the Light Shifts,Elemental Burst
-12,Durin,5,Pyro,Sword,Mondstadt,Medium Male,14.3.,Apple Stew (Trial Version),Crit DMG,Luna III,12/3/2025,44,Binary Form: Convergence and Division,Elemental Skill
-12,Durin,5,Pyro,Sword,Mondstadt,Medium Male,14.3.,Apple Stew (Trial Version),Crit DMG,Luna III,12/3/2025,45,Radiant Wingslash,Normal Attack
-13,Qiqi,5,Cryo,Sword,Liyue,Short Female,3.3.,No Tomorrow,Healing Bonus,1,9/28/2020,19,Adeptus Art: Preserver of Fortune,Elemental Burst
-13,Qiqi,5,Cryo,Sword,Liyue,Short Female,3.3.,No Tomorrow,Healing Bonus,1,9/28/2020,20,Adeptus Art: Herald of Frost,Elemental Skill
-13,Qiqi,5,Cryo,Sword,Liyue,Short Female,3.3.,No Tomorrow,Healing Bonus,1,9/28/2020,21,Ancient Sword Art,Normal Attack
-14,Chiori,5,Geo,Sword,Inazuma,Medium Female,17.8.,Fashion Show,Crit Rate,4.5,3/13/2024,22,Hiyoku: Twin Blades,Elemental Burst
-14,Chiori,5,Geo,Sword,Inazuma,Medium Female,17.8.,Fashion Show,Crit Rate,4.5,3/13/2024,23,Fluttering Hasode,Elemental Skill
-14,Chiori,5,Geo,Sword,Inazuma,Medium Female,17.8.,Fashion Show,Crit Rate,4.5,3/13/2024,24,Weaving Blade,Normal Attack
-15,Neuvillette,5,Hydro,Catalyst,Fontaine,Tall Male,18.12.,Consomme Purete,Crit DMG,4.1,9/27/2023,25,"O Tides, I Have Returned",Elemental Burst
-15,Neuvillette,5,Hydro,Catalyst,Fontaine,Tall Male,18.12.,Consomme Purete,Crit DMG,4.1,9/27/2023,26,"O Tears, I Shall Repay",Elemental Skill
-15,Neuvillette,5,Hydro,Catalyst,Fontaine,Tall Male,18.12.,Consomme Purete,Crit DMG,4.1,9/27/2023,27,As Water Seeks Equilibrium,Normal Attack
+character_name,character_element,region,rarity,weapon_type,birthday,model_type,weapons,talents,artifacts,special_dish,ascension_stat,release_version,release_date,character_id
+Hu Tao,Pyro,Liyue,5,Polearm,15.7.,Medium Female,"[{""weapon_name"" : ""Staff of Homa"", ""weapon_type"" : ""Polearm"", ""rarity"" : 5, ""base_attack"" : 608, ""secondary_stat"" : ""CRIT DMG 66.2%"", ""material_name"" : ""Aerosiderite"", ""material_domain"" : ""Hidden Palace of Lianshan Formula"", ""material_region"" : ""Liyue"", ""weapon_id"" : 1}]","[{""talent_name"" : ""Secret Spear of Wangsheng"", ""talent_type"" : ""Normal Attack"", ""talent_id"" : 1}, {""talent_name"" : ""Guide to Afterlife"", ""talent_type"" : ""Elemental Skill"", ""talent_id"" : 2}, {""talent_name"" : ""Spirit Soother"", ""talent_type"" : ""Elemental Burst"", ""talent_id"" : 3}]","[{""artifact_name"" : ""Crimson Witch of Flames"", ""domain_name"" : ""Hidden Palace of Zhou Formula"", ""domain_region"" : ""Liyue"", ""artifact_id"" : 11}, {""artifact_name"" : ""Shimenawa's Reminiscence"", ""domain_name"" : ""Momiji-Dyed Court"", ""domain_region"" : ""Inazuma"", ""artifact_id"" : 20}]",Ghostly March,Crit DMG,1.3,2021-03-02,1
+Zibai,Geo,Liyue,5,Sword,15.5.,Tall Female,"[{""weapon_name"" : ""Lightbearing Moonshard"", ""weapon_type"" : ""Sword"", ""rarity"" : 5, ""base_attack"" : 542, ""secondary_stat"" : ""CRIT DMG 88.2%"", ""material_name"" : ""Aerosiderite"", ""material_domain"" : ""Hidden Palace of Lianshan Formula"", ""material_region"" : ""Liyue"", ""weapon_id"" : 12}]","[{""talent_name"" : ""Tri-Sphere Eminence"", ""talent_type"" : ""Elemental Burst"", ""talent_id"" : 31}, {""talent_name"" : ""Heaven and Earth Made Manifest"", ""talent_type"" : ""Elemental Skill"", ""talent_id"" : 32}, {""talent_name"" : ""Golden Blade's Petaled Touch"", ""talent_type"" : ""Normal Attack"", ""talent_id"" : 33}]","[{""artifact_name"" : ""Husk of Opulent Dreams"", ""domain_name"" : ""Slumbering Court"", ""domain_region"" : ""Inazuma"", ""artifact_id"" : 21}, {""artifact_name"" : ""Night of the Sky's Unveiling"", ""domain_name"" : ""Frostladen Machinery"", ""domain_region"" : ""Nod-Krai"", ""artifact_id"" : 39}]",Flavor of Spring,Crit DMG,Luna IV,2026-02-03,2
+Columbina,Hydro,Nod-Krai,5,Catalyst,14.1.,Medium Female,"[{""weapon_name"" : ""Nocturne's Curtain Call"", ""weapon_type"" : ""Catalyst"", ""rarity"" : 5, ""base_attack"" : 542, ""secondary_stat"" : ""CRIT DMG 88.2%"", ""material_name"" : ""Far-North Scions"", ""material_domain"" : ""Lost Mooncourt"", ""material_region"" : ""Nod-Krai"", ""weapon_id"" : 14}]","[{""talent_name"" : ""Moonlit Melancholy"", ""talent_type"" : ""Elemental Burst"", ""talent_id"" : 4}, {""talent_name"" : ""Eternal Tides"", ""talent_type"" : ""Elemental Skill"", ""talent_id"" : 5}, {""talent_name"" : ""Moondew Cascade"", ""talent_type"" : ""Normal Attack"", ""talent_id"" : 6}]","[{""artifact_name"" : ""Aubade of Morningstar and Moon"", ""domain_name"" : ""Moonchild's Treasures"", ""domain_region"" : ""Nod-Krai"", ""artifact_id"" : 41}, {""artifact_name"" : ""Silken Moon's Serenade"", ""domain_name"" : ""Frostladen Machinery"", ""domain_region"" : ""Nod-Krai"", ""artifact_id"" : 40}]",Moonlit Mirage,Crit Rate,Luna IV,2026-01-14,3
+Furina,Hydro,Fontaine,5,Sword,13.10.,Medium Female,"[{""weapon_name"" : ""Splendor of Tranquil Waters"", ""weapon_type"" : ""Sword"", ""rarity"" : 5, ""base_attack"" : 542, ""secondary_stat"" : ""CRIT DMG 88.2%"", ""material_name"" : ""Pure Sacred Dewdrop"", ""material_domain"" : ""Echoes of the Deep Tides"", ""material_region"" : ""Fontaine"", ""weapon_id"" : 4}]","[{""talent_name"" : ""Let the People Rejoice"", ""talent_type"" : ""Elemental Burst"", ""talent_id"" : 7}, {""talent_name"" : ""Salon Solitaire"", ""talent_type"" : ""Elemental Skill"", ""talent_id"" : 8}, {""talent_name"" : ""Soloist's Solicitation"", ""talent_type"" : ""Normal Attack"", ""talent_id"" : 9}]","[{""artifact_name"" : ""Golden Troupe"", ""domain_name"" : ""Denouement of Sin"", ""domain_region"" : ""Fontaine"", ""artifact_id"" : 30}]",Pour la Justice,Crit Rate,4.2,2023-11-08,4
+Sandrone,Cryo,Snezhnaya,5,Claymore,13.1.,Medium Female,[],"[{""talent_name"" : ""Formule Phenomenale: Q.E.D."", ""talent_type"" : ""Elemental Burst"", ""talent_id"" : 28}, {""talent_name"" : ""Formule Phenomenale: Differential Analysis"", ""talent_type"" : ""Elemental Skill"", ""talent_id"" : 29}, {""talent_name"" : ""Formule Phenomenale: Self-Evident Proposition"", ""talent_type"" : ""Normal Attack"", ""talent_id"" : 30}]",[],Tea Party Polyphony,Crit Rate,Luna VIII,2026-07-01,5
+Yoimiya,Pyro,Inazuma,5,Bow,21.6.,Medium Female,[],"[{""talent_name"" : ""Ryuukin Saxifrage"", ""talent_type"" : ""Elemental Burst"", ""talent_id"" : 10}, {""talent_name"" : ""Niwabi Fire-Dance"", ""talent_type"" : ""Elemental Skill"", ""talent_id"" : 11}, {""talent_name"" : ""Firework Flare-Up"", ""talent_type"" : ""Normal Attack"", ""talent_id"" : 12}]",[],Summer Festival Fish,Crit Rate,2.0,2021-08-10,6
+Sangonomiya Kokomi,Hydro,Inazuma,5,Catalyst,22.2.,Medium Female,"[{""weapon_name"" : ""Everlasting Moonglow"", ""weapon_type"" : ""Catalyst"", ""rarity"" : 5, ""base_attack"" : 608, ""secondary_stat"" : ""HP 49.6%"", ""material_name"" : ""Distant Sea"", ""material_domain"" : ""Court of Flowing Sand"", ""material_region"" : ""Inazuma"", ""weapon_id"" : 6}]","[{""talent_name"" : ""Nereid's Ascension"", ""talent_type"" : ""Elemental Burst"", ""talent_id"" : 13}, {""talent_name"" : ""Kurage's Oath"", ""talent_type"" : ""Elemental Skill"", ""talent_id"" : 14}, {""talent_name"" : ""The Shape of Water"", ""talent_type"" : ""Normal Attack"", ""talent_id"" : 15}]","[{""artifact_name"" : ""Ocean-Hued Clam"", ""domain_name"" : ""Slumbering Court"", ""domain_region"" : ""Inazuma"", ""artifact_id"" : 22}, {""artifact_name"" : ""Tenacity of the Millelith"", ""domain_name"" : ""Ridge Watch"", ""domain_region"" : ""Liyue"", ""artifact_id"" : 15}]",A Stunning Stratagem,Hydro DMG Bonus,2.1,2021-09-21,7
+Linnea,Geo,Nod-Krai,5,Bow,23.5.,Medium Female,[],"[{""talent_name"" : ""Memo: Survival Guide in Extreme Conditions"", ""talent_type"" : ""Elemental Burst"", ""talent_id"" : 37}, {""talent_name"" : ""Countermeasure: Lumi's Battle Cry!"", ""talent_type"" : ""Elemental Skill"", ""talent_id"" : 38}, {""talent_name"" : ""Capture Protocol"", ""talent_type"" : ""Normal Attack"", ""talent_id"" : 39}]",[],Iridescence Under the Tree's Shade,Crit Rate,Luna VI,2026-04-08,8
+Vesna,Anemo,Snezhnaya,5,Sword,4.2.,,"[{""weapon_name"" : ""Beyond the Chrysalis"", ""weapon_type"" : ""Sword"", ""rarity"" : 5, ""base_attack"" : 674, ""secondary_stat"" : ""CRIT DMG 44.1%"", ""material_name"" : ""Pale Star Army"", ""material_domain"" : ""Scars of Cursed Obsession"", ""material_region"" : ""Snezhnaya"", ""weapon_id"" : 13}]","[{""talent_name"" : ""For the Tsaritsa!"", ""talent_type"" : ""Elemental Burst"", ""talent_id"" : 34}, {""talent_name"" : ""The Art of Victory"", ""talent_type"" : ""Elemental Skill"", ""talent_id"" : 35}, {""talent_name"" : ""Vila Blade Dance"", ""talent_type"" : ""Normal Attack"", ""talent_id"" : 36}]","[{""artifact_name"" : ""Scarlet Proof"", ""domain_name"" : ""Inverted Glacier"", ""domain_region"" : ""Snezhnaya"", ""artifact_id"" : 45}, {""artifact_name"" : ""Viridescent Venerer"", ""domain_name"" : ""Valley of Remembrance"", ""domain_region"" : ""Mondstadt"", ""artifact_id"" : 3}]",Hoarfrost Soup,Crit DMG,7.1,2026-09-23,9
+Klee,Pyro,Mondstadt,5,Catalyst,27.7.,Short Female,"[{""weapon_name"" : ""Dodoco Tales"", ""weapon_type"" : ""Catalyst"", ""rarity"" : 4, ""base_attack"" : 454, ""secondary_stat"" : ""ATK 55.1%"", ""material_name"" : ""Boreal Wolf"", ""material_domain"" : ""Cecilia Garden"", ""material_region"" : ""Mondstadt"", ""weapon_id"" : 11}]","[{""talent_name"" : ""Sparks 'n' Splash"", ""talent_type"" : ""Elemental Burst"", ""talent_id"" : 16}, {""talent_name"" : ""Jumpy Dumpty"", ""talent_type"" : ""Elemental Skill"", ""talent_id"" : 17}, {""talent_name"" : ""Kaboom!"", ""talent_type"" : ""Normal Attack"", ""talent_id"" : 18}]","[{""artifact_name"" : ""Crimson Witch of Flames"", ""domain_name"" : ""Hidden Palace of Zhou Formula"", ""domain_region"" : ""Liyue"", ""artifact_id"" : 11}]",Fish-Flavored Toast,Pyro DMG Bonus,1.0,2020-10-20,10
+Nicole,Pyro,,5,Catalyst,29.9.,Tall Female,[],"[{""talent_name"" : ""Revelation: Ladder of Divine Ascent"", ""talent_type"" : ""Elemental Burst"", ""talent_id"" : 40}, {""talent_name"" : ""Revelation: Uncreated Light"", ""talent_type"" : ""Elemental Skill"", ""talent_id"" : 41}, {""talent_name"" : ""Allegoria"", ""talent_type"" : ""Normal Attack"", ""talent_id"" : 42}]",[],Gilded Chest,ATK%,Luna VII,2026-05-20,11
+Durin,Pyro,Mondstadt,5,Sword,14.3.,Medium Male,[],"[{""talent_name"" : ""Principle of Purity: As the Light Shifts"", ""talent_type"" : ""Elemental Burst"", ""talent_id"" : 43}, {""talent_name"" : ""Binary Form: Convergence and Division"", ""talent_type"" : ""Elemental Skill"", ""talent_id"" : 44}, {""talent_name"" : ""Radiant Wingslash"", ""talent_type"" : ""Normal Attack"", ""talent_id"" : 45}]",[],Apple Stew (Trial Version),Crit DMG,Luna III,2025-12-03,12
+Qiqi,Cryo,Liyue,5,Sword,3.3.,Short Female,[],"[{""talent_name"" : ""Adeptus Art: Preserver of Fortune"", ""talent_type"" : ""Elemental Burst"", ""talent_id"" : 19}, {""talent_name"" : ""Adeptus Art: Herald of Frost"", ""talent_type"" : ""Elemental Skill"", ""talent_id"" : 20}, {""talent_name"" : ""Ancient Sword Art"", ""talent_type"" : ""Normal Attack"", ""talent_id"" : 21}]",[],No Tomorrow,Healing Bonus,1.0,2020-09-28,13
+Chiori,Geo,Inazuma,5,Sword,17.8.,Medium Female,[],"[{""talent_name"" : ""Hiyoku: Twin Blades"", ""talent_type"" : ""Elemental Burst"", ""talent_id"" : 22}, {""talent_name"" : ""Fluttering Hasode"", ""talent_type"" : ""Elemental Skill"", ""talent_id"" : 23}, {""talent_name"" : ""Weaving Blade"", ""talent_type"" : ""Normal Attack"", ""talent_id"" : 24}]",[],Fashion Show,Crit Rate,4.5,2024-03-13,14
+Neuvillette,Hydro,Fontaine,5,Catalyst,18.12.,Tall Male,"[{""weapon_name"" : ""Tome of the Eternal Flow"", ""weapon_type"" : ""Catalyst"", ""rarity"" : 5, ""base_attack"" : 542, ""secondary_stat"" : ""CRIT DMG 88.2%"", ""material_name"" : ""Pure Sacred Dewdrop"", ""material_domain"" : ""Echoes of the Deep Tides"", ""material_region"" : ""Fontaine"", ""weapon_id"" : 5}]","[{""talent_name"" : ""O Tides, I Have Returned"", ""talent_type"" : ""Elemental Burst"", ""talent_id"" : 25}, {""talent_name"" : ""O Tears, I Shall Repay"", ""talent_type"" : ""Elemental Skill"", ""talent_id"" : 26}, {""talent_name"" : ""As Water Seeks Equilibrium"", ""talent_type"" : ""Normal Attack"", ""talent_id"" : 27}]","[{""artifact_name"" : ""Marechaussee Hunter"", ""domain_name"" : ""Denouement of Sin"", ""domain_region"" : ""Fontaine"", ""artifact_id"" : 29}]",Consomme Purete,Crit DMG,4.1,2023-09-27,15
+Diluc,Pyro,Mondstadt,5,Claymore,30.4.,Tall Male,[],[],[],Once Upon a Time in Mondstadt,Crit Rate,1.0,2020-09-28,16
+Jean,Anemo,Mondstadt,5,Sword,14.3.,Tall Female,[],[],[],Invigorating Pizza,Healing Bonus,1.0,2020-09-28,17
+Keqing,Electro,Liyue,5,Sword,20.11.,Medium Female,[],[],[],Survival Grilled Fish,Crit DMG,1.0,2020-09-28,18
+Mona,Hydro,Mondstadt,5,Catalyst,31.8.,Medium Female,[],[],[],Der Weisheit Letzter Schluss,Energy Recharge,1.0,2020-09-28,19
+Venti,Anemo,Mondstadt,5,Bow,16.6.,Medium Male,"[{""weapon_name"" : ""Elegy for the End"", ""weapon_type"" : ""Bow"", ""rarity"" : 5, ""base_attack"" : 608, ""secondary_stat"" : ""Energy Recharge 55.1%"", ""material_name"" : ""Boreal Wolf"", ""material_domain"" : ""Cecilia Garden"", ""material_region"" : ""Mondstadt"", ""weapon_id"" : 9}]",[],"[{""artifact_name"" : ""Viridescent Venerer"", ""domain_name"" : ""Valley of Remembrance"", ""domain_region"" : ""Mondstadt"", ""artifact_id"" : 3}]",A Buoyant Breeze,Energy Recharge,1.0,2020-09-28,20
+Amber,Pyro,Mondstadt,4,Bow,10.8.,Medium Female,[],[],[],Outrider's Champion Steak!,ATK,1.0,2020-09-28,21
+Barbara,Hydro,Mondstadt,4,Catalyst,5.7.,Medium Female,[],[],[],Spicy Stew,HP,1.0,2020-09-28,22
+Beidou,Electro,Liyue,4,Claymore,14.2.,Tall Female,[],[],"[{""artifact_name"" : ""Emblem of Severed Fate"", ""domain_name"" : ""Momiji-Dyed Court"", ""domain_region"" : ""Inazuma"", ""artifact_id"" : 19}]",Flash-Fried Filet,Electro DMG Bonus,1.0,2020-09-28,23
+Bennett,Pyro,Mondstadt,4,Sword,29.2.,Medium Male,[],[],[],Teyvat Charred Egg,Energy Recharge,1.0,2020-09-28,24
+Chongyun,Cryo,Liyue,4,Claymore,7.9.,Medium Male,[],[],[],Cold Noodles with Mountain Delicacies,ATK,1.0,2020-09-28,25
+Fischl,Electro,Mondstadt,4,Bow,27.5.,Medium Female,[],[],[],Die Heilige Sinfonie,ATK,1.0,2020-09-28,26
+Kaeya,Cryo,Mondstadt,4,Sword,30.11.,Tall Male,[],[],[],Fruity Skewers,Energy Recharge,1.0,2020-09-28,27
+Lisa,Electro,Mondstadt,4,Catalyst,9.6.,Tall Female,[],[],[],Mysterious Bolognese,Elemental Mastery,1.0,2020-09-28,28
+Ningguang,Geo,Liyue,4,Catalyst,26.8.,Tall Female,[],[],[],Qiankun Mora Meat,Geo DMG Bonus,1.0,2020-09-28,29
+Noelle,Geo,Mondstadt,4,Claymore,21.3.,Medium Female,[],[],[],Lighter-Than-Air Pancake,DEF,1.0,2020-09-28,30
+Razor,Electro,Mondstadt,4,Claymore,9.9.,Medium Male,[],[],[],Puppy-Paw Hash Brown,Physical DMG Bonus,1.0,2020-09-28,31
+Sucrose,Anemo,Mondstadt,4,Catalyst,26.11.,Medium Female,[],[],"[{""artifact_name"" : ""Viridescent Venerer"", ""domain_name"" : ""Valley of Remembrance"", ""domain_region"" : ""Mondstadt"", ""artifact_id"" : 3}]",Nutritious Meal (V. 593),Anemo DMG Bonus,1.0,2020-09-28,32
+Xiangling,Pyro,Liyue,4,Polearm,2.11.,Medium Female,[],[],"[{""artifact_name"" : ""Emblem of Severed Fate"", ""domain_name"" : ""Momiji-Dyed Court"", ""domain_region"" : ""Inazuma"", ""artifact_id"" : 19}]",Wanmin Restaurant's Boiled Fish,Elemental Mastery,1.0,2020-09-28,33
+Xingqiu,Hydro,Liyue,4,Sword,9.10.,Medium Male,[],[],"[{""artifact_name"" : ""Emblem of Severed Fate"", ""domain_name"" : ""Momiji-Dyed Court"", ""domain_region"" : ""Inazuma"", ""artifact_id"" : 19}]",All-Delicacy Parcels,ATK,1.0,2020-09-28,34
+Tartaglia,Hydro,Snezhnaya,5,Bow,20.7.,Tall Male,[],[],[],A Prize Catch,Hydro DMG Bonus,1.1,2020-11-11,35
+Zhongli,Geo,Liyue,5,Polearm,31.12.,Tall Male,"[{""weapon_name"" : ""Vortex Vanquisher"", ""weapon_type"" : ""Polearm"", ""rarity"" : 5, ""base_attack"" : 608, ""secondary_stat"" : ""ATK 49.6%"", ""material_name"" : ""Aerosiderite"", ""material_domain"" : ""Hidden Palace of Lianshan Formula"", ""material_region"" : ""Liyue"", ""weapon_id"" : 10}]",[],"[{""artifact_name"" : ""Tenacity of the Millelith"", ""domain_name"" : ""Ridge Watch"", ""domain_region"" : ""Liyue"", ""artifact_id"" : 15}]",Slow-Cooked Bamboo Shoot Soup,Geo DMG Bonus,1.1,2020-11-11,36
+Diona,Cryo,Mondstadt,4,Bow,18.1.,Short Female,[],[],[],Definitely Not Bar Food!,Cryo DMG Bonus,1.1,2020-11-11,37
+Xinyan,Pyro,Liyue,4,Claymore,16.10.,Medium Female,[],[],[],Rockin' Riffin' Chicken!,ATK,1.1,2020-11-11,38
+Albedo,Geo,Mondstadt,5,Sword,13.9.,Tall Male,[],[],[],Woodland Dream,Geo DMG Bonus,1.2,2020-12-23,39
+Ganyu,Cryo,Liyue,5,Bow,2.12.,Medium Female,[],[],[],Prosperous Peace,Crit DMG,1.2,2020-12-23,40
+Xiao,Anemo,Liyue,5,Polearm,17.4.,Medium Male,[],[],[],Sweet Dream,Crit Rate,1.3,2021-02-03,41
+Rosaria,Cryo,Mondstadt,4,Polearm,24.1.,Tall Female,[],[],[],Dinner of Judgment,ATK,1.4,2021-03-17,42
+Eula,Cryo,Mondstadt,5,Claymore,25.10.,Tall Female,[],[],[],Stormcrest Pie,Crit DMG,1.5,2021-04-28,43
+Yanfei,Pyro,Liyue,4,Catalyst,28.7.,Medium Female,[],[],[],My Way,Pyro DMG Bonus,1.5,2021-04-28,44
+Kaedehara Kazuha,Anemo,Inazuma,5,Sword,29.10.,Medium Male,"[{""weapon_name"" : ""Freedom-Sworn"", ""weapon_type"" : ""Sword"", ""rarity"" : 5, ""base_attack"" : 608, ""secondary_stat"" : ""Elemental Mastery 198"", ""material_name"" : ""Dandelion Gladiator"", ""material_domain"" : ""Cecilia Garden"", ""material_region"" : ""Mondstadt"", ""weapon_id"" : 7}]",[],"[{""artifact_name"" : ""Viridescent Venerer"", ""domain_name"" : ""Valley of Remembrance"", ""domain_region"" : ""Mondstadt"", ""artifact_id"" : 3}]",All-Weather Beauty,Elemental Mastery,1.6,2021-06-09,45
+Kamisato Ayaka,Cryo,Inazuma,5,Sword,28.9.,Medium Female,[],[],[],Snow on the Hearth,Crit DMG,2.0,2021-07-21,46
+Sayu,Anemo,Inazuma,4,Claymore,19.10.,Short Female,[],[],[],Dizziness-Be-Gone no Jutsu Version 2.0,Elemental Mastery,2.0,2021-07-21,47
+Aloy,Cryo,,5,Bow,,Tall Female,[],[],[],,,2.1,2021-09-01,48
+Raiden Shogun,Electro,Inazuma,5,Polearm,26.6.,Tall Female,"[{""weapon_name"" : ""Engulfing Lightning"", ""weapon_type"" : ""Polearm"", ""rarity"" : 5, ""base_attack"" : 608, ""secondary_stat"" : ""Energy Recharge 55.1%"", ""material_name"" : ""Mask of the Kijin"", ""material_domain"" : ""Court of Flowing Sand"", ""material_region"" : ""Inazuma"", ""weapon_id"" : 2}]",[],"[{""artifact_name"" : ""Emblem of Severed Fate"", ""domain_name"" : ""Momiji-Dyed Court"", ""domain_region"" : ""Inazuma"", ""artifact_id"" : 19}, {""artifact_name"" : ""Gilded Dreams"", ""domain_name"" : ""Spire of Solitary Enlightenment"", ""domain_region"" : ""Sumeru"", ""artifact_id"" : 24}]",,Energy Recharge,2.1,2021-09-01,49
+Kujou Sara,Electro,Inazuma,4,Bow,14.7.,Tall Female,[],[],[],Faith Eternal,ATK,2.1,2021-09-01,50
+Thoma,Pyro,Inazuma,4,Polearm,9.1.,Tall Male,[],[],[],Warmth,ATK,2.2,2021-10-13,51
+Arataki Itto,Geo,Inazuma,5,Claymore,1.6.,Tall Male,[],[],[],Way of the Strong,Crit Rate,2.3,2021-11-24,52
+Gorou,Geo,Inazuma,4,Bow,18.5.,Medium Male,[],[],[],Victorious Legend,Geo DMG Bonus,2.3,2021-11-24,53
+Shenhe,Cryo,Liyue,5,Polearm,10.3.,Tall Female,[],[],[],Heartstring Noodles,ATK,2.4,2022-01-05,54
+Yun Jin,Geo,Liyue,4,Polearm,21.5.,Medium Female,[],[],[],Cloud-Shrouded Jade,Energy Recharge,2.4,2022-01-05,55
+Yae Miko,Electro,Inazuma,5,Catalyst,27.6.,Tall Female,[],[],[],Fukuuchi Udon,Crit Rate,2.5,2022-02-16,56
+Kamisato Ayato,Hydro,Inazuma,5,Sword,26.3.,Tall Male,[],[],[],Quiet Elegance,Crit DMG,2.6,2022-03-30,57
+Yelan,Hydro,Liyue,5,Bow,20.4.,Tall Female,"[{""weapon_name"" : ""Aqua Simulacra"", ""weapon_type"" : ""Bow"", ""rarity"" : 5, ""base_attack"" : 542, ""secondary_stat"" : ""CRIT DMG 88.2%"", ""material_name"" : ""Guyun"", ""material_domain"" : ""Hidden Palace of Lianshan Formula"", ""material_region"" : ""Liyue"", ""weapon_id"" : 8}]",[],"[{""artifact_name"" : ""Emblem of Severed Fate"", ""domain_name"" : ""Momiji-Dyed Court"", ""domain_region"" : ""Inazuma"", ""artifact_id"" : 19}]",Dew-Dipped Shrimp,Crit Rate,2.7,2022-05-31,58
+Kuki Shinobu,Electro,Inazuma,4,Sword,27.7.,Medium Female,[],[],[],Omurice Waltz,HP,2.7,2022-05-31,59
+Shikanoin Heizou,Anemo,Inazuma,4,Catalyst,24.7.,Medium Male,[],[],[],The Only Truth,Anemo DMG Bonus,2.8,2022-07-13,60
+Tighnari,Dendro,Sumeru,5,Bow,29.12.,Medium Male,[],[],[],Forest Watcher's Choice,Dendro DMG Bonus,3.0,2022-08-24,61
+Collei,Dendro,Sumeru,4,Bow,8.5.,Medium Female,[],[],[],Yearning,ATK,3.0,2022-08-24,62
+Dori,Electro,Sumeru,4,Claymore,21.12.,Short Female,[],[],[],Show Me the Mora,HP,3.0,2022-08-24,63
+Cyno,Electro,Sumeru,5,Polearm,23.6.,Medium Male,[],[],[],Duel Soul,Crit DMG,3.1,2022-09-28,64
+Nilou,Hydro,Sumeru,5,Sword,3.12.,Medium Female,[],[],[],Swirling Steps,HP,3.1,2022-09-28,65
+Candace,Hydro,Sumeru,4,Polearm,3.5.,Tall Female,[],[],[],Utmost Care,HP,3.1,2022-09-28,66
+Nahida,Dendro,Sumeru,5,Catalyst,27.10.,Short Female,"[{""weapon_name"" : ""A Thousand Floating Dreams"", ""weapon_type"" : ""Catalyst"", ""rarity"" : 5, ""base_attack"" : 542, ""secondary_stat"" : ""Elemental Mastery 265"", ""material_name"" : ""Oasis Garden"", ""material_domain"" : ""Tower of Abject Pride"", ""material_region"" : ""Sumeru"", ""weapon_id"" : 3}]",[],"[{""artifact_name"" : ""Deepwood Memories"", ""domain_name"" : ""Spire of Solitary Enlightenment"", ""domain_region"" : ""Sumeru"", ""artifact_id"" : 23}, {""artifact_name"" : ""Gilded Dreams"", ""domain_name"" : ""Spire of Solitary Enlightenment"", ""domain_region"" : ""Sumeru"", ""artifact_id"" : 24}]",Halvamazd,Elemental Mastery,3.2,2022-11-02,67
+Layla,Cryo,Sumeru,4,Sword,19.12.,Medium Female,[],[],[],Extravagant Slumber,HP,3.2,2022-11-02,68
+Wanderer,Anemo,Sumeru,5,Catalyst,3.1.,Medium Male,[],[],[],Shimi Chazuke,Crit Rate,3.3,2022-12-07,69
+Faruzan,Anemo,Sumeru,4,Bow,20.8.,Medium Female,[],[],[],Traditionally-Made Charcoal-Baked Ajilenakh Cake,ATK,3.3,2022-12-07,70
+Alhaitham,Dendro,Sumeru,5,Sword,11.2.,Tall Male,[],[],[],Ideal Circumstance,Dendro DMG Bonus,3.4,2023-01-18,71
+Yaoyao,Dendro,Liyue,4,Polearm,6.3.,Short Female,[],[],[],Qingce Household Dish,HP,3.4,2023-01-18,72
+Dehya,Pyro,Sumeru,5,Claymore,7.4.,Tall Female,[],[],[],Goldflame Tajine,HP,3.5,2023-03-01,73
+Mika,Cryo,Mondstadt,4,Polearm,11.8.,Short Male,[],[],[],Surveyor's Breakfast Sandwich,HP,3.5,2023-03-01,74
+Baizhu,Dendro,Liyue,5,Catalyst,25.4.,Tall Male,[],[],[],Heat-Quelling Soup,HP,3.6,2023-04-12,75
+Kaveh,Dendro,Sumeru,4,Claymore,9.7.,Medium Male,[],[],[],The Endeavor,Elemental Mastery,3.6,2023-04-12,76
+Kirara,Dendro,Inazuma,4,Sword,22.1.,Medium Female,[],[],[],Energizing Bento,HP,3.7,2023-05-24,77
+Lyney,Pyro,Fontaine,5,Bow,2.2.,Medium Male,[],[],[],Cubic Tricks,Crit Rate,4.0,2023-08-16,78
+Freminet,Cryo,Fontaine,4,Claymore,24.9.,Medium Male,[],[],[],Seabird's Sojourn,ATK,4.0,2023-08-16,79
+Lynette,Anemo,Fontaine,4,Sword,2.2.,Medium Female,[],[],[],A Leisurely Sip,Anemo DMG Bonus,4.0,2023-08-16,80
+Wriothesley,Cryo,Fontaine,5,Catalyst,23.11.,Tall Male,[],[],[],Secret Sauce BBQ Ribs,Crit DMG,4.1,2023-09-27,81
+Charlotte,Cryo,Fontaine,4,Catalyst,10.4.,Medium Female,[],[],[],Exclusive Scoop: Gourmet Column,ATK,4.2,2023-11-08,82
+Navia,Geo,Fontaine,5,Claymore,16.8.,Tall Female,[],[],[],Pick What You Like!,Crit DMG,4.3,2023-12-20,83
+Chevreuse,Pyro,Fontaine,4,Polearm,10.1.,Medium Female,[],[],[],Sin: The Kind That Doesn't Need to Be Dealt With,HP,4.3,2023-12-20,84
+Xianyun,Anemo,Liyue,5,Catalyst,11.4.,Tall Female,[],[],[],Encompassing Gladness,ATK,4.4,2024-01-31,85
+Gaming,Pyro,Liyue,4,Claymore,22.12.,Medium Male,[],[],[],Yummy Yum Cha,ATK,4.4,2024-01-31,86
+Arlecchino,Pyro,Snezhnaya,5,Polearm,22.8.,Tall Female,[],[],[],Hearthfire's Trail,Crit DMG,4.6,2024-04-24,87
+Clorinde,Electro,Fontaine,5,Sword,20.9.,Tall Female,[],[],[],Tagged and Bagged,Crit Rate,4.7,2024-06-05,88
+Sigewinne,Hydro,Fontaine,5,Bow,30.3.,Short Female,[],[],[],Well-Balanced Meal,HP,4.7,2024-06-05,89
+Sethos,Electro,Sumeru,4,Bow,31.5.,Medium Male,[],[],[],Super-Dee-Duper Delicious Meat Roll,Elemental Mastery,4.7,2024-06-05,90
+Emilie,Dendro,Fontaine,5,Polearm,22.9.,Tall Female,[],[],[],A Fragrant Feast,Crit DMG,4.8,2024-07-17,91
+Kinich,Dendro,Natlan,5,Claymore,11.11.,Tall Male,[],[],[],Saurian Hunter's Reward,Crit DMG,5.0,2024-08-28,92
+Mualani,Hydro,Natlan,5,Catalyst,12.8.,Medium Female,[],[],[],Pass the Luck,Crit Rate,5.0,2024-08-28,93
+Kachina,Geo,Natlan,4,Polearm,22.4.,Short Female,[],[],[],Impeccably Organized,Geo DMG Bonus,5.0,2024-08-28,94
+Xilonen,Geo,Natlan,5,Sword,13.3.,Tall Female,[],[],[],Fruit-Flavored Milk Candies,DEF,5.1,2024-10-09,95
+Chasca,Anemo,Natlan,5,Bow,10.12.,Tall Female,[],[],[],Moment of Respite,Crit Rate,5.2,2024-11-20,96
+Ororon,Electro,Natlan,4,Bow,14.10.,Tall Male,[],[],[],Honey-Glazed Ceviche,ATK,5.2,2024-11-20,97
+Citlali,Cryo,Natlan,5,Catalyst,20.1.,Tall Female,[],[],[],Secret Art,Elemental Mastery,5.3,2025-01-01,98
+Mavuika,Pyro,Natlan,5,Claymore,28.8.,Tall Female,[],[],[],Grilled in Glaze,Crit DMG,5.3,2025-01-01,99
+Lan Yan,Anemo,Liyue,4,Catalyst,6.1.,Medium Female,[],[],[],Jade Veiled Chicken,ATK,5.3,2025-01-01,100
+Yumemizuki Mizuki,Anemo,Inazuma,5,Catalyst,16.3.,Medium Female,[],[],[],Dreams of Healing,Elemental Mastery,5.4,2025-02-12,101
+Varesa,Electro,Natlan,5,Catalyst,10.1.,Tall Female,[],[],[],Gold-Standard Healthy Meal,Crit Rate,5.5,2025-03-26,102
+Iansan,Electro,Natlan,4,Polearm,8.8.,Short Female,[],[],[],Power Shake,ATK,5.5,2025-03-26,103
+Escoffier,Cryo,Fontaine,5,Polearm,8.6.,Tall Female,[],[],[],Lullaby of the Sea,Crit Rate,5.6,2025-05-07,104
+Ifa,Anemo,Natlan,4,Catalyst,23.3.,Tall Male,[],[],[],Emotion Support,Elemental Mastery,5.6,2025-05-07,105
+Skirk,Cryo,Other,5,Sword,5.11.,Tall Female,[],[],[],Abyssal Bounty,Crit DMG,5.7,2025-06-18,106
+Dahlia,Hydro,Mondstadt,4,Sword,25.5.,Medium Male,[],[],[],Sombre Silver,HP,5.7,2025-06-18,107
+Ineffa,Electro,Nod-Krai,5,Polearm,2.4.,Medium Female,[],[],[],Thunderclap Blitz,Crit Rate,5.8,2025-07-30,108
+Flins,Electro,Nod-Krai,5,Polearm,31.10.,Tall Male,[],[],[],Long Night Alight,Crit DMG,Luna I,2025-09-10,109
+Lauma,Dendro,Nod-Krai,5,Catalyst,1.3.,Tall Female,[],[],[],Whisper in the Woods,Elemental Mastery,Luna I,2025-09-10,110
+Aino,Hydro,Nod-Krai,4,Claymore,21.9.,Medium Female,[],[],[],Clink-Clank Confectionary Cup,Elemental Mastery,Luna I,2025-09-10,111
+Nefer,Dendro,Nod-Krai,5,Catalyst,9.5.,Medium Female,[],[],[],Secrets Exchanged,Crit DMG,Luna II,2025-10-22,112
+Jahoda,Anemo,Nod-Krai,4,Bow,5.1.,Medium Female,[],[],[],After-Class Practice,Healing Bonus,Luna III,2025-12-03,113
+Illuga,Geo,Nod-Krai,4,Polearm,23.12.,Medium Male,[],[],[],Nightwatch Soup,Elemental Mastery,Luna IV,2026-01-14,114
+Varka,Anemo,Mondstadt,5,Claymore,17.2.,Tall Male,[],[],[],Hearty Indulgence,Crit DMG,Luna V,2026-02-25,115
+Lohen,Cryo,Mondstadt,5,Polearm,3.4.,Medium Male,[],[],[],Boredom-Busting Bubblegum,Crit DMG,Luna VII,2026-05-20,116
+Prune,Anemo,Mondstadt,4,Catalyst,20.11.,Short Female,[],[],[],Spinning Special,ATK,Luna VII,2026-05-20,117
+Odette,Cryo,Snezhnaya,5,Sword,20.2.,Medium Female,[],[],[],Lakeside Snow Swan,Crit DMG,7.0,2026-08-12,118
+Alyosha,Electro,Snezhnaya,4,Polearm,9.2.,Medium Male,[],[],[],The Bullseye Roast,Energy Recharge,7.0,2026-08-12,119
+Vodyanitsa,Hydro,Snezhnaya,5,Catalyst,29.3.,Medium Female,[],[],[],Iridescent Aria,HP,7.1,2026-09-23,120
+Mitya,Electro,Snezhnaya,5,Catalyst,8.2.,Medium Male,[],[],[],Energy-Replenishing Meal,Crit DMG,7.2,2026-11-04,121
+Valeriy,Electro,Snezhnaya,4,Sword,24.3.,Tall Male,[],[],[],Emergency Barricade,ATK,7.2,2026-11-04,122
+Aether,,,5,Sword,,Medium Male,[],[],[],,,1.0,2020-09-28,123
+Lumine,,,5,Sword,,Medium Female,[],[],[],,,1.0,2020-09-28,124

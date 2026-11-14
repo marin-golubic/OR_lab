@@ -1,0 +1,46 @@
+CREATE TABLE character_weapons (
+    character_id INTEGER NOT NULL,
+    weapon_id INTEGER NOT NULL,
+
+    PRIMARY KEY (character_id, weapon_id),
+
+    FOREIGN KEY (character_id)
+        REFERENCES characters(character_id)
+        ON DELETE CASCADE,
+
+    FOREIGN KEY (weapon_id)
+        REFERENCES weapons(weapon_id)
+        ON DELETE CASCADE
+);
+
+BEGIN;
+
+WITH signature_weapons (character_name, weapon_name) AS (
+    VALUES
+        ('Hu Tao', 'Staff of Homa'),
+        ('Raiden Shogun', 'Engulfing Lightning'),
+        ('Nahida', 'A Thousand Floating Dreams'),
+        ('Furina', 'Splendor of Tranquil Waters'),
+        ('Neuvillette', 'Tome of the Eternal Flow'),
+        ('Sangonomiya Kokomi', 'Everlasting Moonglow'),
+        ('Kaedehara Kazuha', 'Freedom-Sworn'),
+        ('Yelan', 'Aqua Simulacra'),
+        ('Venti', 'Elegy for the End'),
+        ('Zhongli', 'Vortex Vanquisher'),
+        ('Klee', 'Dodoco Tales'),
+        ('Zibai', 'Lightbearing Moonshard'),
+        ('Vesna', 'Beyond the Chrysalis'),
+        ('Columbina', 'Nocturne''s Curtain Call')
+)
+INSERT INTO character_weapons (character_id, weapon_id)
+SELECT
+    c.character_id,
+    w.weapon_id
+FROM signature_weapons sw
+JOIN characters c
+    ON c.character_name = sw.character_name
+JOIN weapons w
+    ON w.weapon_name = sw.weapon_name
+ON CONFLICT (character_id, weapon_id) DO NOTHING;
+
+COMMIT;

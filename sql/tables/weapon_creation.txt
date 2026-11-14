@@ -1,0 +1,12 @@
+CREATE TABLE weapons (
+    weapon_id SERIAL PRIMARY KEY,
+    weapon_name VARCHAR(100) NOT NULL UNIQUE,
+    weapon_type VARCHAR(30) NOT NULL,
+    rarity INTEGER NOT NULL CHECK (rarity BETWEEN 1 AND 5),
+    base_attack INTEGER,
+    secondary_stat VARCHAR(50),
+    material_id INTEGER,
+
+    FOREIGN KEY (material_id)
+        REFERENCES weapon_ascension_materials(material_id)
+);

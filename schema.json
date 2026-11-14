@@ -1,0 +1,296 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/marin-golubic/OR_lab/blob/main/genshin_impact.json",
+  "title": "Genshin Impact Characters",
+  "description": "Otvoreni skup podataka o Genshin Impact likovima, njihovim talentima, povezanim oruzjima i preporucenim setovima artefakata.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "title": "Character",
+    "description": "Podaci o jednom Genshin Impact liku.",
+    "properties": {
+      "character_name": {
+        "type": "string",
+        "title": "Character name",
+        "description": "Ime igrivog lika.",
+        "minLength": 1
+      },
+      "character_element": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "title": "Element",
+        "description": "Element lika; null za lika bez jedinstvenog elementa."
+      },
+      "region": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "title": "Region",
+        "description": "Regija s kojom je lik povezan."
+      },
+      "rarity": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "title": "Rarity",
+        "description": "Rijetkost lika u zvjezdicama.",
+        "minimum": 1,
+        "maximum": 5
+      },
+      "weapon_type": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "title": "Weapon type",
+        "description": "Vrsta oruzja koju lik koristi."
+      },
+      "birthday": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "title": "Birthday",
+        "description": "Rodendan zapisan kao dan.mjesec., kada je poznat.",
+        "pattern": "^([1-9]|[12][0-9]|3[01])\\.([1-9]|1[0-2])\\.$"
+      },
+      "model_type": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "title": "Model type",
+        "description": "Tip modela lika."
+      },
+      "weapons": {
+        "type": "array",
+        "title": "Weapons",
+        "description": "Popis povezanih oruzja; moze biti prazan.",
+        "items": {
+          "type": "object",
+          "title": "Weapon",
+          "description": "Oruzje povezano s likom i njegov materijal za uzdizanje.",
+          "properties": {
+            "weapon_name": {
+              "type": "string",
+              "title": "Weapon name",
+              "description": "Naziv oruzja."
+            },
+            "weapon_type": {
+              "type": "string",
+              "title": "Weapon type",
+              "description": "Vrsta oruzja."
+            },
+            "rarity": {
+              "type": "integer",
+              "title": "Weapon rarity",
+              "description": "Rijetkost oruzja u zvjezdicama.",
+              "minimum": 1,
+              "maximum": 5
+            },
+            "base_attack": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "title": "Base attack",
+              "description": "Osnovni napad oruzja na razini 90.",
+              "minimum": 0
+            },
+            "secondary_stat": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Secondary stat",
+              "description": "Sporedna statistika oruzja na razini 90."
+            },
+            "material_name": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Material name",
+              "description": "Naziv obitelji materijala za uzdizanje."
+            },
+            "material_domain": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Material domain",
+              "description": "Domena iz koje dolazi materijal."
+            },
+            "material_region": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Material region",
+              "description": "Regija domene materijala."
+            },
+            "weapon_id": {
+              "type": "integer",
+              "title": "Weapon ID",
+              "description": "Jedinstveni identifikator oruzja.",
+              "minimum": 1
+            }
+          },
+          "required": [
+            "weapon_name",
+            "weapon_type",
+            "rarity",
+            "base_attack",
+            "secondary_stat",
+            "material_name",
+            "material_domain",
+            "material_region",
+            "weapon_id"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "talents": {
+        "type": "array",
+        "title": "Talents",
+        "description": "Popis talenata lika; moze biti prazan.",
+        "items": {
+          "type": "object",
+          "title": "Talent",
+          "description": "Talent lika.",
+          "properties": {
+            "talent_name": {
+              "type": "string",
+              "title": "Talent name",
+              "description": "Naziv talenta."
+            },
+            "talent_type": {
+              "type": "string",
+              "title": "Talent type",
+              "description": "Vrsta talenta."
+            },
+            "talent_id": {
+              "type": "integer",
+              "title": "Talent ID",
+              "description": "Jedinstveni identifikator talenta.",
+              "minimum": 1
+            }
+          },
+          "required": [
+            "talent_name",
+            "talent_type",
+            "talent_id"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "artifacts": {
+        "type": "array",
+        "title": "Artifacts",
+        "description": "Preporuceni setovi artefakata; moze biti prazan.",
+        "items": {
+          "type": "object",
+          "title": "Artifact set",
+          "description": "Preporuceni set artefakata za lika.",
+          "properties": {
+            "artifact_name": {
+              "type": "string",
+              "title": "Artifact name",
+              "description": "Naziv seta artefakata."
+            },
+            "domain_name": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Domain name",
+              "description": "Naziv domene u kojoj se dobiva set ili null za setove iz boss borbi."
+            },
+            "domain_region": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Domain region",
+              "description": "Regija u kojoj je domena ili null ako domena ne postoji."
+            },
+            "artifact_id": {
+              "type": "integer",
+              "title": "Artifact ID",
+              "description": "Jedinstveni identifikator seta artefakata.",
+              "minimum": 1
+            }
+          },
+          "required": [
+            "artifact_name",
+            "domain_name",
+            "domain_region",
+            "artifact_id"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "special_dish": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "title": "Special dish",
+        "description": "Posebno jelo lika, ako postoji."
+      },
+      "ascension_stat": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "title": "Ascension stat",
+        "description": "Statistika koju lik dobiva uzdizanjem."
+      },
+      "release_version": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "title": "Release version",
+        "description": "Verzija igre u kojoj je lik izdan."
+      },
+      "release_date": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "title": "Release date",
+        "description": "Datum izlaska u ISO obliku GGGG-MM-DD.",
+        "format": "date"
+      },
+      "character_id": {
+        "type": "integer",
+        "title": "Character ID",
+        "description": "Jedinstveni identifikator lika.",
+        "minimum": 1
+      }
+    },
+    "required": [
+      "character_name",
+      "character_element",
+      "region",
+      "rarity",
+      "weapon_type",
+      "birthday",
+      "model_type",
+      "weapons",
+      "talents",
+      "artifacts",
+      "special_dish",
+      "ascension_stat",
+      "release_version",
+      "release_date",
+      "character_id"
+    ],
+    "additionalProperties": false
+  }
+}

@@ -1,0 +1,69 @@
+CREATE TABLE character_artifacts (
+    character_id INTEGER NOT NULL,
+    artifact_id INTEGER NOT NULL,
+
+    PRIMARY KEY (character_id, artifact_id),
+
+    FOREIGN KEY (character_id)
+        REFERENCES characters(character_id)
+        ON DELETE CASCADE,
+
+    FOREIGN KEY (artifact_id)
+        REFERENCES artifacts(artifact_id)
+        ON DELETE CASCADE
+);
+
+
+BEGIN;
+
+WITH recommendations (character_name, artifact_name) AS (
+    VALUES
+        -- Hu Tao
+        ('Hu Tao', 'Crimson Witch of Flames'),
+        ('Hu Tao', 'Shimenawa''s Reminiscence'),
+
+        -- Raiden Shogun
+        ('Raiden Shogun', 'Emblem of Severed Fate'),
+        ('Raiden Shogun', 'Gilded Dreams'),
+
+        -- Nahida
+        ('Nahida', 'Deepwood Memories'),
+        ('Nahida', 'Gilded Dreams'),
+
+        -- Furina
+        ('Furina', 'Golden Troupe'),
+
+        -- Neuvillette
+        ('Neuvillette', 'Marechaussee Hunter'),
+
+        -- Sangonomiya Kokomi
+        ('Sangonomiya Kokomi', 'Ocean-Hued Clam'),
+        ('Sangonomiya Kokomi', 'Tenacity of the Millelith'),
+
+        -- Kaedehara Kazuha
+        ('Kaedehara Kazuha', 'Viridescent Venerer'),
+
+        -- Burst damage characters
+        ('Xiangling', 'Emblem of Severed Fate'),
+        ('Xingqiu', 'Emblem of Severed Fate'),
+        ('Yelan', 'Emblem of Severed Fate'),
+        ('Beidou', 'Emblem of Severed Fate'),
+
+        -- Anemo supports
+        ('Sucrose', 'Viridescent Venerer'),
+        ('Venti', 'Viridescent Venerer'),
+
+        -- Other builds
+        ('Zhongli', 'Tenacity of the Millelith'),
+        ('Klee', 'Crimson Witch of Flames')
+)
+INSERT INTO character_artifacts (character_id, artifact_id)
+SELECT c.character_id, a.artifact_id
+FROM recommendations r
+JOIN characters c
+    ON c.character_name = r.character_name
+JOIN artifacts a
+    ON a.artifact_name = r.artifact_name
+ON CONFLICT (character_id, artifact_id) DO NOTHING;
+
+COMMIT;

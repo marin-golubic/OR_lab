@@ -1,0 +1,93 @@
+create table artifacts (
+	artifact_id serial primary key,
+	artifact_name varchar(100) not null unique,
+	domain_name varchar(100),
+	region varchar(50)
+)
+
+
+INSERT INTO artifacts (artifact_name, domain_name, region)
+VALUES
+    -- Mondstadt
+    ('Thundering Fury', 'Midsummer Courtyard', 'Mondstadt'),
+    ('Thundersoother', 'Midsummer Courtyard', 'Mondstadt'),
+    ('Viridescent Venerer', 'Valley of Remembrance', 'Mondstadt'),
+    ('Maiden Beloved', 'Valley of Remembrance', 'Mondstadt'),
+    ('Blizzard Strayer', 'Peak of Vindagnyr', 'Mondstadt'),
+    ('Heart of Depth', 'Peak of Vindagnyr', 'Mondstadt'),
+    ('Celestial Gift', 'Thorny Crown of the Mountain Wind', 'Mondstadt'),
+    ('Disenchantment in Deep Shadow', 'Thorny Crown of the Mountain Wind', 'Mondstadt'),
+
+    -- Liyue
+    ('Archaic Petra', 'Domain of Guyun', 'Liyue'),
+    ('Retracing Bolide', 'Domain of Guyun', 'Liyue'),
+    ('Crimson Witch of Flames', 'Hidden Palace of Zhou Formula', 'Liyue'),
+    ('Lavawalker', 'Hidden Palace of Zhou Formula', 'Liyue'),
+    ('Bloodstained Chivalry', 'Clear Pool and Mountain Cavern', 'Liyue'),
+    ('Noblesse Oblige', 'Clear Pool and Mountain Cavern', 'Liyue'),
+    ('Tenacity of the Millelith', 'Ridge Watch', 'Liyue'),
+    ('Pale Flame', 'Ridge Watch', 'Liyue'),
+    ('Vermillion Hereafter', 'The Lost Valley', 'Liyue'),
+    ('Echoes of an Offering', 'The Lost Valley', 'Liyue'),
+
+    -- Inazuma
+    ('Emblem of Severed Fate', 'Momiji-Dyed Court', 'Inazuma'),
+    ('Shimenawa''s Reminiscence', 'Momiji-Dyed Court', 'Inazuma'),
+    ('Husk of Opulent Dreams', 'Slumbering Court', 'Inazuma'),
+    ('Ocean-Hued Clam', 'Slumbering Court', 'Inazuma'),
+
+    -- Sumeru
+    ('Deepwood Memories', 'Spire of Solitary Enlightenment', 'Sumeru'),
+    ('Gilded Dreams', 'Spire of Solitary Enlightenment', 'Sumeru'),
+    ('Desert Pavilion Chronicle', 'City of Gold', 'Sumeru'),
+    ('Flower of Paradise Lost', 'City of Gold', 'Sumeru'),
+    ('Nymph''s Dream', 'Molten Iron Fortress', 'Sumeru'),
+    ('Vourukasha''s Glow', 'Molten Iron Fortress', 'Sumeru'),
+
+    -- Fontaine
+    ('Marechaussee Hunter', 'Denouement of Sin', 'Fontaine'),
+    ('Golden Troupe', 'Denouement of Sin', 'Fontaine'),
+    ('Song of Days Past', 'Waterfall Wen', 'Fontaine'),
+    ('Nighttime Whispers in the Echoing Woods', 'Waterfall Wen', 'Fontaine'),
+    ('Fragment of Harmonic Whimsy', 'Faded Theater', 'Fontaine'),
+    ('Unfinished Reverie', 'Faded Theater', 'Fontaine'),
+
+    -- Natlan
+    ('Obsidian Codex', 'Sanctum of Rainbow Spirits', 'Natlan'),
+    ('Scroll of the Hero of Cinder City', 'Sanctum of Rainbow Spirits', 'Natlan'),
+    ('Long Night''s Oath', 'Derelict Masonry Dock', 'Natlan'),
+    ('Finale of the Deep Galleries', 'Derelict Masonry Dock', 'Natlan'),
+
+    -- Nod-Krai
+    ('Night of the Sky''s Unveiling', 'Frostladen Machinery', 'Nod-Krai'),
+    ('Silken Moon''s Serenade', 'Frostladen Machinery', 'Nod-Krai'),
+    ('Aubade of Morningstar and Moon', 'Moonchild''s Treasures', 'Nod-Krai'),
+    ('A Day Carved From Rising Winds', 'Moonchild''s Treasures', 'Nod-Krai'),
+
+    -- Boss drops
+    ('Gladiator''s Finale', 'Boss drops', NULL),
+    ('Wanderer''s Troupe', 'Boss drops', NULL)
+
+ON CONFLICT (artifact_name) DO NOTHING;
+
+
+ALTER TABLE artifacts
+ADD COLUMN domain_id INTEGER;
+
+
+UPDATE artifacts a
+SET domain_id = d.domain_id
+FROM domains d
+WHERE a.domain_name = d.domain_name
+  AND a.region = d.region;
+
+
+ALTER TABLE artifacts
+ADD CONSTRAINT fk_artifacts_domain
+FOREIGN KEY (domain_id)
+REFERENCES domains(domain_id);
+
+
+ALTER TABLE artifacts
+DROP COLUMN domain_name,
+DROP COLUMN region;
